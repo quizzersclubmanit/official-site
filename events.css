@@ -1,0 +1,305 @@
+
+:root{
+  --green:#2ec4b6;
+  --red:#e71d36;
+  --white:#fdfffc;
+  --dark-blue:#011627;
+  --yellow:#ff9f1c;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#events {
+  padding: 10% 0;
+  width: 100vw;
+  background-color: var(--dark-blue);
+  color: #f9f9f9;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Arvo", serif;
+}
+#events > h1{
+  padding:0 10%;
+  color:var(--white);
+}
+#events > h1 > span{
+  color:var(--yellow);
+}
+
+.img {
+  height: 230px;
+  aspect-ratio: 16 / 9;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.event-1 .img {
+  background-image: url("./events-images/abhigyan.jpeg");
+}
+
+.img {
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.img .content {
+  color: white;
+  position: absolute;
+  width: 145px;
+  left: -65px;
+  bottom: 0px;
+  -webkit-transform: translateZ(35px);
+          transform: translateZ(35px);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 100px;
+          perspective: 100px;
+}
+
+.img .content > p {
+  font-size: 30px;
+}
+
+.img .divider {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
+
+.img .count-no p:nth-of-type(2) {
+  font-size: 12px;
+  font-weight: bolder;
+}
+.event-2 .img {
+  background-image: url("./events-images/manthan.jpg");
+}
+
+.event-3 .img {
+  background-image: url("./events-images/quizzotica.jpg");
+}
+
+.event-4 .img {
+  background-image: url("./events-images/vihaan.jpg");
+}
+.event-2, .event-4{
+  padding-top: 200px !important;
+}
+
+.hover-effect {
+  margin: 0 auto;
+  -webkit-transition: -webkit-box-shadow 0.1s, -webkit-transform 0.1s;
+  transition: -webkit-box-shadow 0.1s, -webkit-transform 0.1s;
+  transition: box-shadow 0.1s, transform 0.1s;
+  transition: box-shadow 0.1s, transform 0.1s, -webkit-box-shadow 0.1s, -webkit-transform 0.1s;
+}
+
+.hover-effect:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px);
+          /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+  cursor: pointer;
+}
+
+.slide-effect-0,
+.slide-effect-1,
+.slide-effect-2,
+.slide-effect-3,
+.slide-effect-4 {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white);
+  -webkit-transition: all linear;
+  transition: all linear;
+}
+
+.slider-container-0,
+.slider_container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  background-color: var(--dark-blue);
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide-img,
+.slide-img-1 {
+  width: 68%;
+  height: 80vh;
+  background-image: url("./events-images/abhigyan.jpeg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 2rem;
+  margin-top: 6.5rem;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-img-1 {
+  background-image: url("./events-images/manthan.jpg");
+}
+
+.slide-img-2 {
+  background-image: url("./events-images/quizzotica.jpg");
+}
+
+.slide-img-3 {
+  background-image: url("./events-images/vihaan.jpg");
+}
+
+.slide-content,
+.slide-content-1,
+.slide-content-2,
+.slide-content-3,
+.slide-content-4 {
+  width: 28%;
+  height: 80vh;
+  margin-top: 6.5rem;
+  color: var(--white);
+  padding-left: 2rem;
+  font-size: 22px !important;
+  -webkit-transform: translateX(200vw);
+          transform: translateX(200vw);
+  opacity: 0;
+}
+
+.btn-0,
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  color: var(--white);
+  font-size: 40px;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  opacity: 0;
+  border-radius: 0;
+  width: 2em;
+  height: 2em;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: var(--green);
+}
+
+.slider-event-name-0,
+.slider-event-name-1,
+.slider-event-name-2,
+.slider-event-name-3,
+.slider-event-name-4 {
+  position: absolute;
+  width: 0%;
+  height: 50px;
+  background-color: var(--red);
+}
+
+.slide-effectNumber-0,
+.slide-effectNumber-1,
+.slide-effectNumber-2,
+.slide-effectNumber-3,
+.slide-effectNumber-4 {
+  background-color:var(--white);
+  position: absolute;
+  right: 0;
+  width: 0%;
+  height: 30px;
+}
+.row{
+  overflow:hidden;
+}
+@media (max-width: 700px) {
+  .content {
+    width: 5rem !important;
+    left: -35px !important;
+    bottom: -2px !important;
+  }
+  .content > p {
+    font-size: 1.155rem !important;
+  }
+  .content .divider {
+    margin: 3px 0 !important;
+    height: 2.5px !important;
+  }
+  .content .count-no p:nth-of-type(2) {
+    font-size: 12px !important;
+    font-weight: bolder;
+  }
+  .slider-container-0,
+  .slider_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    top: 0;
+    margin-top: 0;
+  }
+  .slide-img {
+    width: 90% !important;
+    height: 70vh;
+    padding-left: 1rem;
+    margin-top: 6.5rem !important;
+  }
+  .slide-content,
+  .slide-content-1,
+  .slide-content-2,
+  .slide-content-3,
+  .slide-content-4 {
+    width: 90% !important;
+    font-size: 18px !important;
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+  .slider-event-name-0,
+  .slider-event-name-1,
+  .slider-event-name-2,
+  .slider-event-name-3,
+  .slider-event-name-4 {
+    height: 30px;
+  }
+  .slide-effectNumber-0,
+  .slide-effectNumber-1,
+  .slide-effectNumber-2,
+  .slide-effectNumber-3,
+  .slide-effectNumber-4 {
+    height: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .event-2, .event-4{
+    padding-top: 40px !important;
+  }
+}

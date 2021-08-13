@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quizzers' Club MANIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./nav.css" />
+    <link rel="stylesheet" href="./landing.css" />
+    <link rel="stylesheet" href="./quizmaster.css" />
+    <link rel="stylesheet" href="./events.css" />
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="navbar">
+      <!-- toggle key  -->
+      <input type="checkbox" id="burger-toggle" />
+      <label for="burger-toggle" class="burger-menu shadow">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      <!-- menu items  -->
+      <div class="menu">
+        <div class="menu-inner">
+          <ul
+            class="
+              menu-nav menu-hover-fill
+              flex flex-col
+              items-start
+              leading-none
+              text-2xl
+              uppercase
+              space-y-4
+            "
+          >
+            <li><a href="#" data-text="home">home</a></li>
+            <li><a href="#" data-text="about">about</a></li>
+            <li><a href="#" data-text="events">events</a></li>
+            <li><a href="#" data-text="team">team</a></li>
+            <li><a href="#" data-text="contact">contact</a></li>
+          </ul>
+          <!-- blog and gallery section  -->
+          <div class="gallery">
+            <div class="title">
+              <h4>Read our blogs</h4>
+            </div>
+            <br />
+            <div class="images row no-gutters">
+              <div class="col-lg-6 col-md-6">
+                <a class="image-link" href="#">
+                  <div class="image" data-label="Blog 1">
+                    <div
+                      class="featured-tile shadow-lg"
+                      style="
+                        background-image: url('https://firebasestorage.googleapis.com/v0/b/reading-frenzy.appspot.com/o/images%2F1614450956408?alt=media&token=2e8b29b9-9b3c-4b98-b54f-c261d867e9ea');
+                        background-size: cover;
+                        background-position: center;
+                      "
+                    >
+                      <div class="shade">
+                        <div class="rounded-pill shadow">Visit</div>
+                      </div>
+                      <div class="featured-blog-type">
+                        <h6
+                          style="
+                            text-transform: upperCase;
+                            font-size: 0.9rem;
+                            color: #010101;
+                            opacity: 0.6;
+                            letter-spacing: 0.5px;
+                          "
+                        >
+                          Quizzing
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="featured-blog-described">
+                      <h2>Ways to get better at Quizzing</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <a class="image-link" href="#">
+                  <div class="image" data-label="Blog 1">
+                    <div
+                      class="featured-tile shadow-lg"
+                      style="
+                        background-image: url('https://firebasestorage.googleapis.com/v0/b/reading-frenzy.appspot.com/o/images%2F1624264453703?alt=media&token=cc5ac748-3374-4ef3-92b7-c03a2ca0ff9b');
+                        background-size: cover;
+                        background-position: center;
+                      "
+                    >
+                      <div class="shade">
+                        <div class="rounded-pill shadow">Visit</div>
+                      </div>
+                      <div class="featured-blog-type">
+                        <h6
+                          style="
+                            text-transform: upperCase;
+                            font-size: 0.9rem;
+                            color: #010101;
+                            opacity: 0.6;
+                            letter-spacing: 0.5px;
+                          "
+                        >
+                          Science
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="featured-blog-described">
+                      <h2>
+                        Falling sensation when you are just about to fall asleep
+                      </h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="landing">
+      <div>
+        <h1>Hi, we are team <span>Quizzers' Club MANIT</span></h1>
+        <br />
+        <h2>One of Central India's <span>biggest</span> quizzing clubs.</h2>
+      </div>
+    </section>
+
+    <section id="events">
+      <h1><span>Events</span> that we conduct</h1>
+      <!-- ! SLIDE SEC -->
+
+      <div class="slider-container-0">
+        <div class="btn-0 btn">
+          <i class="fal fa-times-circle"></i>
+        </div>
+        <div class="slide-img"></div>
+        <div class="slide-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+          eveniet dolor dicta a nobis? Deleniti consectetur in ipsa ratione,
+          magnam a reprehenderit rerum! Perferendis voluptate aliquid et vero
+          harum sequi, ratione ipsam at cupiditate vel inventore saepe
+          reiciendis, eum aliquam? Facere, eos cumque! Corporis amet porro
+          voluptatem, veritatis officia maxime. Sint laudantium nam libero ad
+          labore ipsa unde facere repellat dolorum, suscipit at voluptas quasi,
+          assumenda, modi rerum nesciunt doloremque a. Architecto laudantium
+          minima atque.
+        </div>
+      </div>
+
+      <!-- !   -->
+      <div class="slider-container-1 slider_container">
+        <div class="btn-1 btn">
+          <i class="fal fa-times-circle"></i>
+        </div>
+        <div class="slide-img slide-img-1"></div>
+        <div class="slide-content-1">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+          eveniet dolor dicta a nobis? Deleniti consectetur in ipsa ratione,
+          magnam a reprehenderit rerum! Perferendis voluptate aliquid et vero
+          harum sequi, ratione ipsam at cupiditate vel inventore saepe
+          reiciendis, eum aliquam? Facere, eos cumque! Corporis amet porro
+          voluptatem, veritatis officia maxime. Sint laudantium nam libero ad
+          labore ipsa unde facere repellat dolorum, suscipit at voluptas quasi,
+          assumenda, modi rerum nesciuntdoloremque a. Architecto laudantium
+          minima atque.
+        </div>
+      </div>
+
+      <div class="slider-container-2 slider_container">
+        <div class="btn-2 btn">
+          <i class="fal fa-times-circle"></i>
+        </div>
+        <div class="slide-img slide-img-2"></div>
+        <div class="slide-content-2">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+          eveniet dolor dicta a nobis? Deleniti consectetur in ipsa ratione,
+          magnam a reprehenderit rerum! Perferendis voluptate aliquid et vero
+          harum sequi, ratione ipsam at cupiditate vel inventore saepe
+          reiciendis, eum aliquam? Facere, eos cumque! Corporis amet porro
+          voluptatem, veritatis officia maxime. Sint laudantium nam libero ad
+          labore ipsa unde facere repellat dolorum, suscipit at voluptas quasi,
+          assumenda, modi rerum nesciuntdoloremque a. Architecto laudantium
+          minima atque.
+        </div>
+      </div>
+
+      <div class="slider-container-3 slider_container">
+        <div class="btn-3 btn">
+          <i class="fal fa-times-circle"></i>
+        </div>
+        <div class="slide-img slide-img-3"></div>
+        <div class="slide-content-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+          eveniet dolor dicta a nobis? Deleniti consectetur in ipsa ratione,
+          magnam a reprehenderit rerum! Perferendis voluptate aliquid et vero
+          harum sequi, ratione ipsam at cupiditate vel inventore saepe
+          reiciendis, eum aliquam? Facere, eos cumque! Corporis amet porro
+          voluptatem, veritatis officia maxime. Sint laudantium nam libero ad
+          labore ipsa unde facere repellat dolorum, suscipit at voluptas quasi,
+          assumenda, modi rerum nesciuntdoloremque a. Architecto laudantium
+          minima atque.
+        </div>
+      </div>
+
+      <div class="slider-container-4 slider_container">
+        <div class="btn-4 btn">
+          <i class="fal fa-times-circle"></i>
+        </div>
+        <div class="slide-img slide-img-4"></div>
+        <div class="slide-content-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+          eveniet dolor dicta a nobis? Deleniti consectetur in ipsa ratione,
+          magnam a reprehenderit rerum! Perferendis voluptate aliquid et vero
+          harum sequi, ratione ipsam at cupiditate vel inventore saepe
+          reiciendis, eum aliquam? Facere, eos cumque! Corporis amet porro
+          voluptatem, veritatis officia maxime. Sint laudantium nam libero ad
+          labore ipsa unde facere repellat dolorum, suscipit at voluptas quasi,
+          assumenda, modi rerum nesciuntdoloremque a. Architecto laudantium
+          minima atque.
+        </div>
+      </div>
+      <!-- ! EVENT SEC -->
+      <div class="row no-gutters">
+        <div class="event-1 col-lg-6 p-5" data-aos="fade-up">
+          <div class="img hover-effect">
+            <div class="slide-effect-0"></div>
+            <div class="content">
+              <div class="slider-event-name-0"></div>
+              <p>Abhigyan</p>
+              <div class="divider"></div>
+              <div class="count-no">
+                <div class="slide-effectNumber-0"></div>
+                <p>01</p>
+                <p>→</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-2 col-lg-6 p-5" data-aos="fade-up">
+          <div class="img hover-effect">
+            <div class="slide-effect-1"></div>
+            <div class="content">
+              <div class="slider-event-name-1"></div>
+              <p>Manthan</p>
+              <div class="divider"></div>
+              <div class="count-no">
+                <div class="slide-effectNumber-1"></div>
+                <p>02</p>
+                <p>→</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="event-3 col-lg-6 p-5" data-aos="fade-up">
+          <div class="img hover-effect">
+            <div class="slide-effect-2"></div>
+            <div class="content">
+              <div class="slider-event-name-2"></div>
+              <p>Quizzotica</p>
+              <div class="divider"></div>
+              <div class="count-no">
+                <div class="slide-effectNumber-2"></div>
+                <p>03</p>
+                <p>→</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="event-4 col-lg-6 p-5" data-aos="fade-up">
+          <div class="img hover-effect">
+            <div class="slide-effect-3"></div>
+            <div class="content">
+              <div class="slider-event-name-3"></div>
+              <p>Vihaan</p>
+              <div class="divider"></div>
+              <div class="count-no">
+                <div class="slide-effectNumber-3"></div>
+                <p>04</p>
+                <p>→</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quiz-masters">
+      <div class="rectangle"></div>
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- here goes what customers say -->
+        <h1>Meet our <span>quiz masters</span></h1>
+        <br />
+        <br />
+        <br />
+        <br />
+        <!-- Full-width slides/quotes -->
+        <div class="mySlides">
+          <div class="mySlidesContainer">
+            <img
+              height="100px"
+              width="100px"
+              src="./quizmaster-images/christian-buehner-DItYlc26zVI-unsplash.jpg"
+            />
+            <q>
+              Curabitur ligula augue, lobortis in interdum nec, dignissim vel
+              arcu. Donec semper aliquet mattis. Curabitur convallis urna congue
+              viverra elementum.
+            </q>
+          </div>
+          <br />
+          <br />
+          <p class="author"><span>Joe Bloggs</span></p>
+          <br />
+        </div>
+        <div class="mySlides">
+          <div class="mySlidesContainer">
+            <img
+              src="./quizmaster-images/erika-garcia-Ri2EiUrJsX4-unsplash.jpg"
+            />
+            <q>
+              Vivamus est felis, tempor sed mauris ac, malesuada sollicitudin
+              ipsum. Etiam nec ullamcorper nibh, ac pretium sapien. Donec
+              pharetra sollicitudin ligula, sit amet ornare nisi vestibulum et.
+            </q>
+          </div>
+          <br />
+          <br />
+          <p class="author"><span>Jane Doe</span></p>
+          <br />
+        </div>
+
+        <div class="mySlides">
+          <div class="mySlidesContainer">
+            <img
+              height="100px"
+              width="100px"
+              src="./quizmaster-images/tessa-wilson-1KuiLuha2aU-unsplash.jpg"
+            />
+            <q>
+              Mauris malesuada, ex at volutpat euismod, velit diam placerat
+              lacus, eu rhoncus enim metus ultricies nisi. Mauris pharetra
+              tristique nisl sndnsjkdn skal.
+            </q>
+          </div>
+          <br />
+          <br />
+          <p class="author"><span>John Doe</span></p>
+          <br />
+        </div>
+
+        <!-- Next/prev buttons -->
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+      <!-- END slidehow-container -->
+
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./quizmaster.js"></script>
+    <script src="./events.js"></script>
+  </body>
+</html>
