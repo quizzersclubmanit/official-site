@@ -45,6 +45,17 @@ next.addEventListener("click", () => {
   plusSlides(1);
 });
 
+let slide=true;
+
 setInterval(() => {
-  plusSlides(1);
+  if(slide){
+    plusSlides(1);
+  }
 }, 3000);
+
+document.getElementById("quiz-masters").addEventListener("mouseover", (e)=>{
+  slide=false;
+})
+document.getElementById("quiz-masters").addEventListener("mouseout", (e)=>{
+  slide=true;
+})
