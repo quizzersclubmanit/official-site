@@ -20,6 +20,7 @@ window.addEventListener("load", (e)=>{
         })
         document.querySelectorAll(".shade").forEach(s=>{
             s.style.transform="translateY(0)";
+            s.style.opacity="0.6";
         })
         if(cat){
             makeUp("Final", final);
@@ -60,14 +61,16 @@ function makeUp(category, arr){
             })
             document.querySelectorAll(".shade").forEach(s=>{
                 s.style.transform="translateY(0)";
+                s.style.opacity="0.6";
             })
             parent.lastChild.style.transform="translateY(70%)";
             parent.scrollIntoView({inline:'center', block:'center',behavior: "smooth"});
 
             let p=document.createElement('p');
             p.classList.add('info');
-            parent.appendChild(p);
-            let name=p.parentElement.firstChild.nextSibling.src.split('/').pop().split('.')[0].split("%20").join(" ");
+            parent.lastChild.appendChild(p);
+            parent.lastChild.style.opacity="0.9";
+            let name=parent.firstChild.nextSibling.src.split('/').pop().split('.')[0].split("%20").join(" ");
             for(let nm of arr){
                 if(nm.toLowerCase() === name){
                     p.innerText=nm;
