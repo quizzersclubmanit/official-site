@@ -1,50 +1,58 @@
 const final = [
-  "Archit Chibbar",
-  "Aaditya Jain",
-  "Hritika Sharma",
-  "Paras Dandwani",
-  "Shraddha Bisen",
-  "Mudit Gokhale",
-  "Pankaj Gaur",
-  "Tanishq Singhai",
-  "Nitesh Sharma",
-  "Lalit Singh Rajput",
-  "Siddharth Pankar",
-  "Princy Jain",
-  "Satwik Sharma",
-  "Utkarsh Shrivastava",
-  "Shanul Nema",
-  "Mohammad Anas",
-  "dummy",
-  "dummy",
-  "dummy",
+  ["Archit Chibbar","Final Year"],
+  ["Aaditya Jain","Final Year"],
+  ["Hritika Sharma","Final Year"],
+  ["Paras Dandwani","Final Year"],
+  ["Shraddha Bisen","Final Year"],
+  ["Mudit Gokhale","Final Year"],
+  ["Pankaj Gaur","Final Year"],
+  ["Tanishq Singhai","Final Year"],
+  ["Nitesh Sharma","Final Year"],
+  ["Lalit Singh Rajput","Final Year"],
+  ["Siddharth Pankar","Final Year"],
+  ["Princy Jain","Final Year"],
+  ["Satwik Sharma","Final Year"],
+  ["Utkarsh Shrivastava","Final Year"],
+  ["Shanul Nema","Final Year"],
+  ["Mohammad Anas","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
 ];
 const prefinal = [
-  "Pratham Khare",
-  "Abhishek Sinha",
-  "Manaswi Sathe",
-  "Aman Malviya",
-  "Sakshi Talreja",
-  "Kalyan Roy",
-  "Imrah Ravish",
-  "Satyam Chaturvedi",
-  "Riya Jain",
-  "Akriti Yadav",
-  "Shivi Jain",
-  "Arnav Kulkarni",
-  "Rajat Kumar",
-  "Rajesh Kumar",
-  "Sambhav Bhatt",
-  "Yash Gupta",
-  "Chirag Gupta",
-  "Aman Gupta",
-  "Aditya Dhakad",
+  ["Pratham Khare","Video Head"],
+  ["Abhishek Sinha","Co-cordinator"],
+  ["Manaswi Sathe","Quizzing Head"],
+  ["Aman Malviya","Web Head"],
+  ["Sakshi Talreja","Social Media Head"],
+  ["Kalyan Roy","Quizzing Head"],
+  ["Imrah Ravish","Promotion Head"],
+  ["Satyam Chaturvedi","Co-coordinator"],
+  ["Riya Jain","Photography Head"],
+  ["Akriti Yadav","Designing Head"],
+  ["Shivi Jain","Content Head"],
+  ["Yash Gupta","Web Head"],
+  ["Rajat Kumar","Core team"],
+  ["Rajesh Kumar","Content Head"],
+  ["Sambhav Bhatt","Sponsorship Head"],
+  ["Arnav Kulkarni","Core team"],
+  ["Chirag Gupta","Core team"],
+  ["Aman Gupta","Core team"],
+  ["Aditya Dhakad","Core team"],
+  ["Parv Vijayvargiya","Promotion Head"],
+  ["Deepansh Gupta","Core team"],
+  ["Divyanshu Jojaware","Core team"],
+  ["Shagun Mittal","Sponsorship Head"],
 ];
+
+
 const colors = ["#011627", "#4b2977", "#771543", "#0e5e83"];
-console.log(prefinal.length);
 let cat = true;
 window.addEventListener("load", (e) => {
-
   document.querySelectorAll(".parent").forEach((p) => {
     let rand = Math.floor(Math.random() * 4);
     let shade = document.createElement("div");
@@ -83,10 +91,19 @@ function makeUp(category, arr) {
     document.getElementById("_17").style.display = "none";
     document.getElementById("_18").style.display = "none";
     document.getElementById("_19").style.display = "none";
+    document.getElementById("_20").style.display = "none";
+    document.getElementById("_21").style.display = "none";
+    document.getElementById("_22").style.display = "none";
+    document.getElementById("_23").style.display = "none";
   } else {
     document.getElementById("_17").style.display = "block";
     document.getElementById("_18").style.display = "block";
     document.getElementById("_19").style.display = "block";
+    document.getElementById("_20").style.display = "block";
+    document.getElementById("_21").style.display = "block";
+    document.getElementById("_22").style.display = "block";
+    document.getElementById("_23").style.display = "block";
+
   }
   let i = 0;
   document.querySelectorAll(".parent > img").forEach((img) => {
@@ -95,7 +112,7 @@ function makeUp(category, arr) {
       "./" +
         category +
         "/" +
-        arr[i].toLowerCase().split(" ").join("%20") +
+        arr[i][0].toLowerCase().split(" ").join("%20") +
         ".png"
     );
     i++;
@@ -110,10 +127,10 @@ function makeUp(category, arr) {
         s.style.transform = "translateY(0)";
         s.style.opacity = "0.6";
       });
-      parent.lastChild.style.transform = "translateY(70%)";
+      parent.lastChild.style.transform = "translateY(65%)";
       parent.scrollIntoView({
         inline: "center",
-        block: "center",
+        // block: "center",
         behavior: "smooth",
       });
 
@@ -128,8 +145,8 @@ function makeUp(category, arr) {
         .split("%20")
         .join(" ");
       for (let nm of arr) {
-        if (nm.toLowerCase() === name) {
-          p.innerText = nm;
+        if (nm[0].toLowerCase() === name) {
+          p.innerHTML = nm[0]+'<br>'+nm[1];
           break;
         }
       }

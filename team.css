@@ -55,6 +55,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
     filter: saturate(1.3);
 }
 #_1{
@@ -160,6 +161,30 @@
     height: 180px;
     top:600px;
     left:950px;
+}
+#_20{
+    width: 180px;
+    height: 180px;
+    top:700px;
+    left:10px;
+}
+#_21{
+    width: 180px;
+    height: 180px;
+    top:750px;
+    left:410px;
+}
+#_22{
+    width: 180px;
+    height: 180px;
+    top:720px;
+    left:770px;
+}
+#_23{
+    width: 180px;
+    height: 180px;
+    top:700px;
+    left:1140px;
 }
 
 
