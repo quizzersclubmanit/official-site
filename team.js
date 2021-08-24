@@ -44,9 +44,6 @@ const colors = ["#011627", "#4b2977", "#771543", "#0e5e83"];
 console.log(prefinal.length);
 let cat = true;
 window.addEventListener("load", (e) => {
-  document
-    .getElementById("_8")
-    .scrollIntoView({ inline: "center", behavior: "smooth" });
 
   document.querySelectorAll(".parent").forEach((p) => {
     let rand = Math.floor(Math.random() * 4);
