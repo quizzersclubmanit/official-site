@@ -36,7 +36,7 @@
     font-size: 0.8rem !important;
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 135vh;
     overflow: hidden;
 }
 #team > div{
@@ -62,129 +62,135 @@
     width: 200px;
     height: 200px;
     top:100px;
-    left:140px;
+    left:160px;
 }
 #_2{
     width: 220px;
     height: 220px;
     top:70px;
-    left:370px;
+    left:390px;
 }#_3{
     width: 200px;
     height: 200px;
     top:230px;
-    left:770px;
+    left:790px;
 }#_4{
     width: 180px;
     height: 180px;
     top:60px;
-    left:650px;
+    left:670px;
 }#_5{
     width: 180px;
     height: 180px;
     top:40px;
-    left:880px;
+    left:900px;
 }#_6{
     width: 200px;
     height: 200px;
     top:150px;
-    left:1070px;
+    left:1090px;
 }
 #_7{
     width: 180px;
     height: 180px;
     top:40px;
-    left:1270px;
+    left:1290px;
 }
 #_8{
     width: 220px;
     height: 220px;
     top:300px;
-    left:520px;
+    left:540px;
 }#_9{
     width: 200px;
     height: 200px;
     top:300px;
-    left:270px;
+    left:290px;
 }#_10{
     width: 220px;
     height: 220px;
     top:450px;
-    left:60px;
+    left:80px;
 }#_11{
     width: 180px;
     height: 180px;
     top:350px;
-    left:970px;
+    left:990px;
 }#_12{
     width: 180px;
     height: 180px;
     top:300px;
-    left:1250px;
+    left:1270px;
 }#_13{
     width: 200px;
     height: 200px;
     top:480px;
-    left:750px;
+    left:770px;
 }#_14{
     width: 180px;
     height: 180px;
     top:520px;
-    left:380px;
+    left:400px;
 }
 #_15{
     width: 180px;
     height: 180px;
     top:480px;
-    left:1130px;
+    left:1150px;
 }
 #_16{
     width: 180px;
     height: 180px;
     top:270px;
-    left:10px;
+    left:30px;
 }
 #_17{
     width: 180px;
     height: 180px;
     top:650px;
-    left:220px;
+    left:240px;
 }
 #_18{
     width: 180px;
     height: 180px;
-    top:620px;
-    left:580px;
+    top:600px;
+    left:600px;
 }
 #_19{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     top:600px;
-    left:950px;
+    left:970px;
 }
 #_20{
     width: 180px;
     height: 180px;
     top:700px;
-    left:10px;
+    left:30px;
 }
 #_21{
     width: 180px;
     height: 180px;
     top:750px;
-    left:410px;
+    left:430px;
 }
 #_22{
     width: 180px;
     height: 180px;
-    top:720px;
-    left:770px;
+    top:730px;
+    left:790px;
 }
 #_23{
-    width: 180px;
-    height: 180px;
-    top:700px;
-    left:1140px;
+    width: 185px;
+    height: 185px;
+    top:730px;
+    left:1160px;
+}
+#_24{
+    width: 170px;
+    height: 170px;
+    top:600px;
+    left:1320px;
 }
 
 

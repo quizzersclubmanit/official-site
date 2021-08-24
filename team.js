@@ -22,6 +22,7 @@ const final = [
   ["dummy","Final Year"],
   ["dummy","Final Year"],
   ["dummy","Final Year"],
+  ["dummy","Final Year"]
 ];
 const prefinal = [
   ["Pratham Khare","Video Head"],
@@ -47,6 +48,7 @@ const prefinal = [
   ["Deepansh Gupta","Core team"],
   ["Divyanshu Jojaware","Core team"],
   ["Shagun Mittal","Sponsorship Head"],
+  ["Nishita Goyal","Core team"]
 ];
 
 
@@ -72,12 +74,12 @@ window.addEventListener("load", (e) => {
     if (cat) {
       makeUp("Final", final);
       document.querySelector("#team-head > h1 > span").innerText =
-        "final Years";
+        "final year";
       cat = false;
     } else {
       makeUp("Prefinal", prefinal);
       document.querySelector("#team-head > h1 > span").innerText =
-        "Pre-final Years";
+        "pre-final year";
       cat = true;
     }
   });
@@ -95,6 +97,7 @@ function makeUp(category, arr) {
     document.getElementById("_21").style.display = "none";
     document.getElementById("_22").style.display = "none";
     document.getElementById("_23").style.display = "none";
+    document.getElementById("_24").style.display = "none";
   } else {
     document.getElementById("_17").style.display = "block";
     document.getElementById("_18").style.display = "block";
@@ -103,7 +106,7 @@ function makeUp(category, arr) {
     document.getElementById("_21").style.display = "block";
     document.getElementById("_22").style.display = "block";
     document.getElementById("_23").style.display = "block";
-
+    document.getElementById("_24").style.display = "block";
   }
   let i = 0;
   document.querySelectorAll(".parent > img").forEach((img) => {
@@ -130,7 +133,7 @@ function makeUp(category, arr) {
       parent.lastChild.style.transform = "translateY(65%)";
       parent.scrollIntoView({
         inline: "center",
-        // block: "center",
+        block: "center",
         behavior: "smooth",
       });
 
