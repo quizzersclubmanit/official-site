@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --grey-color: #ffffff85;
+  --dark-blue: #011627;
+  --green: #2ec4b6;
+  --red: #e71d36;
+  --white: #fdfffc;
+  --yellow: #ff9f1c;
+}
+#gallery{
+  position: relative;
+  padding: 100px 0 !important;
+  background: var(--dark-blue);
+}
+.gallery-inner {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 1vmin;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-family: "Arvo", serif;
+}
+.gallery-inner > h1{
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  color: var(--white);
+  font-size: 2.5rem;
+}
+.gallery-inner > h1 >span{
+  font-family: "Satisfy", cursive;
+  font-size: 3.5rem;
+  color: var(--yellow);
+}
+
+body .contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -44%);
+  width: 80%;
+  height: 80%;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  overflow: visible !important;
+  perspective: 800px;
+}
+@media (max-width:800px){
+  .gallery-inner{
+    height: 80vh;
+  }
+}
+@media (max-width:600px){
+  .gallery-inner{
+    height: 50vh;
+  }
+}
+body .contain [class*=item] {
+  position: absolute;
+  width: 33%;
+  height: 33%;
+  background: url() center center/cover no-repeat;
+  transition: all 0.5s ease-in-out;
+  z-index: 0;
+  border: 2px solid var(--white);
+  cursor: pointer;
+  filter: saturate(1.2);
+}
+body .contain [class*=item] > div{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-blue);
+  opacity: 0.5;
+}
+body .contain [class*=item]:hover {
+  transform: translateZ(50px);
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(50px);
+  -webkit-transform-style: preserve-3d;
+  z-index: 1;
+}
+body .contain [class*=item]:nth-of-type(1) {
+  top: 0;                   
+  left: 0;
+}
+body .contain [class*=item]:nth-of-type(2) {
+  top: 0;
+  left: 33%;
+}
+body .contain [class*=item]:nth-of-type(3) {
+  top: 0;
+  left: 66%;
+}
+body .contain [class*=item]:nth-of-type(4) {
+  top: 33%;
+  left: 0;
+}
+body .contain [class*=item]:nth-of-type(5) {
+  top: 33%;
+  left: 33%;
+}
+body .contain [class*=item]:nth-of-type(6) {
+  top: 33%;
+  left: 66%;
+}
+body .contain [class*=item]:nth-of-type(7) {
+  top: 66%;
+  left: 0;
+}
+body .contain [class*=item]:nth-of-type(8) {
+  top: 66%;
+  left: 33%;
+}
+body .contain [class*=item]:nth-of-type(9) {
+  top: 66%;
+  left: 66%;
+}
+body .contain input {
+  display: none;
+}
+body .contain input:checked + [class*=item] {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
