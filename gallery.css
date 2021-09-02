@@ -142,3 +142,59 @@ body .contain input:checked + [class*="item"] {
   height: 100%;
   z-index: 2;
 }
+
+
+
+@media (max-width: 800px) {
+  body .contain [class*=item] {
+    width: 50%;
+    height: 50%;
+  }
+  body .contain [class*=item]:nth-of-type(1) {
+    top: 0;                   
+    left: 0;
+    background-color: blue;
+  }
+  body .contain [class*=item]:nth-of-type(2) {
+    top: 0;
+    left: 50%;
+    background-color: aqua;
+  }
+  body .contain [class*=item]:nth-of-type(3) {
+    top: 50%;
+    left: 0;
+    background-color: red;
+    /* display: none; */
+  }
+  body .contain [class*=item]:nth-of-type(4) {
+    top: 50%;
+    left: 50%;
+    background-color: aliceblue;
+  }
+  body .contain [class*=item]:nth-of-type(5) {
+    /* top: 50%;
+    left: 50%; */
+    display: none;
+  }
+  body .contain [class*=item]:nth-of-type(6) {
+    /* top: 33%;
+    left: 66%; */
+    display: none;
+  }
+  body .contain [class*=item]:nth-of-type(7) {
+    /* top: 66%;
+    left: 0; */
+    display: none;
+  }
+  body .contain [class*=item]:nth-of-type(8) {
+    /* top: 66%;
+    left: 33%; */
+    display: none;
+  }
+  body .contain [class*=item]:nth-of-type(9) {
+    /* top: 66%;
+    left: 66%; */
+    display: none;
+  }
+}
+
