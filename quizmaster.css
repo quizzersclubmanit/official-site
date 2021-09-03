@@ -170,9 +170,15 @@ p {
     padding-top: 8rem;
   }
   .next, .prev {
+
     padding: 5px;
     font-size: 2.5rem;
     margin-top: 0;
+  }
+  /* for less than 800px next button should be white */
+  .next:hover {
+    color: var(--white) !important;
+    text-decoration: none;
   }
 }
 
@@ -183,4 +189,5 @@ p {
   .rectangle{
     display: none;
   }
+ 
 }

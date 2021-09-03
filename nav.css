@@ -18,7 +18,7 @@ p {
 }
 
 #burger-toggle {
-  position: absolute;
+  position: fixed;
   appearance: none;
   opacity: 0;
 }
@@ -26,6 +26,11 @@ p {
   opacity: 1;
   visibility: visible;
 }
+
+#burger-toggle:checked ~ body {
+  overflow: hidden;
+}
+
 #burger-toggle:checked ~ .menu .menu-nav-link span div,
 #burger-toggle:checked ~ .menu img,
 #burger-toggle:checked ~ .menu .title p {
