@@ -136,7 +136,7 @@
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   background-color: var(--dark-blue);
-  z-index: 2;
+  z-index: 6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
