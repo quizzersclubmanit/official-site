@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="./team.css">
   <link rel="stylesheet" href="./gallery.css">
   <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="./contact.css">
   <style>
     body {
       width: 100vw;
@@ -50,11 +51,11 @@
               uppercase
               space-y-4
             ">
-          <li><a href="#" data-text="home">home</a></li>
-          <li><a href="#" data-text="about">about</a></li>
-          <li><a href="#" data-text="events">events</a></li>
-          <li><a href="#" data-text="team">team</a></li>
-          <li><a href="#" data-text="contact">contact</a></li>
+          <li><a href="#landing" data-text="home">home</a></li>
+          <li><a href="#about" data-text="about">about</a></li>
+          <li><a href="#events" data-text="events">events</a></li>
+          <li><a href="#team-head" data-text="team">team</a></li>
+          <li><a href="#contact" data-text="contact">contact</a></li>
         </ul>
         <!-- blog and gallery section  -->
         <div class="gallery">
@@ -553,89 +554,92 @@
       </div>
     </div>
   </section>
-  <section style="height: 100vh; width: 100vw; background-color: #011627;" id="footer">
 
+  <section id="contact">
+    <h1 class="heading">Want to <span>collaborate</span> with us?</h1>
+    <div class="form-container">
+        <div class="form-img ">
+            <img class="col-lg-7 col-md-8 col-sm-9 col-12" src="Contact_Form/1.svg" alt="">
+        </div>
+        <div class="form ">
+            <div class="form-control">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form-control">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="form-control">
+                <textarea class="message-input" placeholder="Message..."></textarea>
+            </div>
+            <button class="btn shadow-lg">Send Message</button>
+        </div>
+    </div>
   </section>
 
 
-
-
-
-
-  <!-- Footer  -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#011627" fill-opacity="1" d="M0,96L60,112C120,128,240,160,360,176C480,192,600,192,720,186.7C840,181,960,171,1080,186.7C1200,203,1320,245,1380,266.7L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
   <footer>
-
     <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="extra col-md-6" style="background-color: aliceblue;">
-          </div>
-          <div class="col-md-6">
-            <iframe class="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58666.30849649431!2d77.35771080235683!3d23.219630822385916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42c4ffffffff%3A0x352adb5f01541b1b!2sQUIZZERS&#39;%20CLUB%20MANIT!5e0!3m2!1sen!2sin!4v1629988495582!5m2!1sen!2sin"
-              style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-3 d-flex justify-content-center">
-            <div class="footer-site-info cprt">2021 © <a href="https://https://quizzersclubmanit.in/">Quizzer's Club
-                MANIT </a></div>
-          </div>
-
-          <div class="col-md-6 d-flex justify-content-center mb-10">
-            <nav id="footer-navigation" class="site-navigation footer-navigation centered-box" role="navigation">
-              <ul id="footer-menu" class="nav-menu styled clearfix inline-inside">
-                <li id="menu-item" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a
-                    href="#">Home</a></li>
-                <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a
-                    href="#">Contact Us</a></li>
-                <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a
-                    href="#">Disclaimer</a></li>
-                <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a
-                    href="#">About Us</a></li>
-                <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a
-                    href="#">Events</a></li>
-
-              </ul>
-            </nav>
-          </div>
-
-          <div class="col-md-3 d-flex justify-content-center">
-            <div id="footer-socials">
-              <div class="socials inline-inside socials-colored">
-
-                <a href="https://www.facebook.com/Quizofficial.manit/" target="_blank" title="Facebook"
-                  class="socials-item">
-                  <i class="fab fa-facebook-f facebook"></i>
-                </a>
-                <!-- <a href="#" target="_blank" title="Twitter" class="socials-item">
-                          <i class="fab fa-twitter twitter"></i> -->
-
-                </a>
-                <a href="https://www.instagram.com/quizzersclub/?hl=en" target="_blank" title="Instagram"
-                  class="socials-item">
-                  <i class="fab fa-instagram instagram"></i>
-                </a>
-                <a href="https://in.linkedin.com/company/quizzers-club-manit" target="_blank" title="Linkedin"
-                  class="socials-item">
-                  <i class="fab fa-linkedin linkedin"></i>
-                </a>
-
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58666.30849649431!2d77.35771080235683!3d23.219630822385916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42c4ffffffff%3A0x352adb5f01541b1b!2sQUIZZERS&#39;%20CLUB%20MANIT!5e0!3m2!1sen!2sin!4v1629988495582!5m2!1sen!2sin"
+        style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="footer-site-info cprt">2021 © <a href="https://https://quizzersclubmanit.in/">Quizzer's Club
+                  MANIT </a></div>
+            </div>
+  
+            <div class="col-md-6 d-flex justify-content-center mb-10">
+              <nav id="footer-navigation" class="site-navigation footer-navigation centered-box" role="navigation">
+                <ul id="footer-menu" class="nav-menu styled clearfix inline-inside">
+                  <li id="menu-item" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a
+                      href="#">Home</a></li>
+                  <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a
+                      href="#">Contact Us</a></li>
+                  <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a
+                      href="#">Disclaimer</a></li>
+                  <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a
+                      href="#">About Us</a></li>
+                  <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a
+                      href="#">Events</a></li>
+  
+                </ul>
+              </nav>
+            </div>
+  
+            <div class="col-md-3 d-flex justify-content-center">
+              <div id="footer-socials">
+                <div class="socials inline-inside socials-colored">
+  
+                  <a href="https://www.facebook.com/Quizofficial.manit/" target="_blank" title="Facebook"
+                    class="socials-item">
+                    <i class="fab fa-facebook-f facebook"></i>
+                  </a>
+                  <!-- <a href="#" target="_blank" title="Twitter" class="socials-item">
+                            <i class="fab fa-twitter twitter"></i> -->
+  
+                  </a>
+                  <a href="https://www.instagram.com/quizzersclub/?hl=en" target="_blank" title="Instagram"
+                    class="socials-item">
+                    <i class="fab fa-instagram instagram"></i>
+                  </a>
+                  <a href="https://in.linkedin.com/company/quizzers-club-manit" target="_blank" title="Linkedin"
+                    class="socials-item">
+                    <i class="fab fa-linkedin linkedin"></i>
+                  </a>
+  
+                </div>
               </div>
             </div>
+  
           </div>
-
         </div>
       </div>
     </div>
+
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>

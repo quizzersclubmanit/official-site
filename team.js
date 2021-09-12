@@ -55,7 +55,7 @@ const prefinal = [
 const colors = ["#011627", "#4b2977", "#771543", "#0e5e83"];
 let cat = true;
 window.addEventListener("load", (e) => {
-  document.getElementById("_8").scrollIntoView({inline:'center'})
+  document.getElementById("team").scrollLeft+=410;
   document.querySelectorAll(".parent").forEach((p) => {
     let rand = Math.floor(Math.random() * 4);
     let shade = document.createElement("div");

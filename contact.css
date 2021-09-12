@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --grey-color: #ffffff85;
+  --dark-blue: #011627;
+  --green: #2ec4b6;
+  --red: #e71d36;
+  --white: #fdfffc;
+  --yellow: #ff9f1c;
+}
+
+#contact {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("Contact_Form/svg.png");
+  font-family: "Arvo", serif;
+}
+#contact > h1 {
+  padding: 3% 10%;
+  color: var(--dark-blue);
+  font-size: 2.5rem;
+}
+#contact > h1 > span {
+  font-family: "Satisfy", cursive;
+  font-size: 3.5rem;
+  color: var(--yellow);
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#contact .form-img {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#contact .form-img img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 60%;
+  height: 60%;
+}
+
+.mail-img{
+  width: 100%;
+}
+
+.form {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.form-control {
+  width: 62%;
+  height: 50px;
+  margin: 0.5rem;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 0 !important;
+}
+
+.form-control input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+}
+
+.form-control input::-webkit-input-placeholder {
+  color: #acacac;
+}
+
+.form-control input:-ms-input-placeholder {
+  color: #acacac;
+}
+
+.form-control input::-ms-input-placeholder {
+  color: #acacac;
+}
+
+.form-control input::placeholder {
+  color: #acacac;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+}
+
+.form-control:nth-of-type(3) {
+  height: 130px;
+  margin-bottom: 3rem;
+}
+
+.message-input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.message-input:focus,
+.message-input:valid {
+  outline: 0;
+}
+
+.message-input::-webkit-input-placeholder {
+  color: #acacac;
+}
+
+.message-input:-ms-input-placeholder {
+  color: #acacac;
+}
+
+.message-input::-ms-input-placeholder {
+  color: #acacac;
+}
+
+.message-input::placeholder {
+  color: #acacac;
+}
+
+#contact .btn {
+  background-color: var(--dark-blue);
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  -webkit-transition: -webkit-transform 0.3 ease-in;
+  transition: -webkit-transform 0.3 ease-in;
+  transition: transform 0.3 ease-in;
+  transition: transform 0.3 ease-in, -webkit-transform 0.3 ease-in;
+  width: 62%;
+  margin-bottom: 2rem;
+  border-radius: 0 !important;
+}
+
+#contact .btn:hover {
+  color: #fff;
+}
+
+#contact .btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #contact .form-img {
+    width: 50%;
+    margin-bottom: 2.5rem;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .form {
+    width: 75%;
+  }
+  .form-control {
+    width: 100%;
+  }
+  #contact .btn {
+    width: 100%;
+  }
+
+  #contact .btn{
+    margin-bottom: 2rem;
+  }
+}
