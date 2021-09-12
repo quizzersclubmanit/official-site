@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#sponsors{
+    background: #011627;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Arvo", serif;
+}
+#sponsors h1{
+    padding:5% 10%;
+        color: #fdfffc;
+        font-size: 2.5rem;
+        font-weight: 400;
+}
+#sponsors > h1 > span {
+    font-family: "Satisfy", cursive;
+    font-size: 3.5rem;
+    color: #FF9F1C;
+}
+
+#sponsors .slider {
+    position: absolute;
+    background: white;
+    height: 285px;
+    margin: auto;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+}
+
+#sponsors .slider::before, #sponsors .slider::after {
+    background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+#sponsors .slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+#sponsors .slider::before {
+    left: 0;
+    top: 0;
+}
+
+#sponsors .slider .slide-track {
+    position: absolute;
+    animation: scroll 10s linear infinite;
+    display: flex;
+    width: 156%;
+    height: 100%;
+    width: calc(250px * 16);
+
+}
+
+#sponsors .slider .slide-track:hover {
+    animation-play-state: paused;
+}
+
+#sponsors .slide img {
+    height: 100%;
+    width: 100%;
+    padding: 18px;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 8));
+    }
+}
