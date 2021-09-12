@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
 
 :root{
   --green:#2ec4b6;
@@ -181,11 +182,25 @@
   margin-top: 6.5rem;
   color: var(--white);
   padding-left: 2rem;
-  font-size: 22px !important;
   -webkit-transform: translateX(200vw);
           transform: translateX(200vw);
   opacity: 0;
+  font-family: "Arvo", serif;
 }
+
+.slide-content{
+  font-size: 16.5px;
+}
+.slide-content-1{
+  font-size: 21px;
+}
+.slide-content-2{
+  font-size:17.5px;
+}
+.slide-content-3{
+  font-size: 23px;
+}
+
 
 .btn-0,
 .btn-1,
