@@ -182,13 +182,16 @@
   margin-top: 6.5rem;
   color: var(--white);
   padding-left: 2rem;
+  padding-right: 1rem;
   -webkit-transform: translateX(200vw);
           transform: translateX(200vw);
   opacity: 0;
   font-family: "Arvo", serif;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
-.slide-content{
+/* .slide-content{
   font-size: 16.5px;
 }
 .slide-content-1{
@@ -199,7 +202,7 @@
 }
 .slide-content-3{
   font-size: 23px;
-}
+} */
 
 
 .btn-0,
@@ -208,7 +211,8 @@
 .btn-3,
 .btn-4 {
   position: absolute;
-  left: 50%;
+  right: 1.5rem;
+  transform: translateX(-50%);
   top: 0;
   color: var(--white);
   font-size: 40px;

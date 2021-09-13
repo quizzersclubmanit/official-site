@@ -67,7 +67,7 @@ p {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 100;
+  z-index: 3;
   display: block;
   width: var(--burger-menu-radius);
   height: var(--burger-menu-radius);
@@ -163,7 +163,7 @@ p {
   overflow-x: hidden;
   visibility: hidden;
   transition: 0.3s;
-  z-index: 6;
+  z-index: 2;
 }
 @media screen and (max-width: 750px) {
   .menu {
