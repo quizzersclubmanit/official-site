@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-@media only screen and (max-width:1000px ){
+@media only screen and (max-width:1200px ){
     #about{
         flex-direction: column-reverse;  
     }
@@ -32,7 +32,7 @@
 }
 
 #aboutUs .box1{
-    width: 70%;
+    width: 100%;
     margin: 22px;
     padding: 18px;
     display: flex;
@@ -47,6 +47,10 @@
    font-size: 1.3rem;
 }
 #aboutUs #para2{
+    display: none;
+    margin-top: 22px;
+}
+#aboutUs #para3{
     display: none;
     margin-top: 22px;
 }
