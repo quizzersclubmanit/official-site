@@ -189,6 +189,8 @@
   font-family: "Arvo", serif;
   font-size: 1.2rem;
   text-align: justify;
+  display: flex;
+  align-items: center;
 }
 
 /* .slide-content{
