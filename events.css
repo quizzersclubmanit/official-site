@@ -43,7 +43,7 @@
 }
 
 .event-1 .img {
-  background-image: url("./events-images/abhigyan.jpeg");
+  background-image: url("./events-images/abhigyan.jpg");
 }
 
 .img {
@@ -150,7 +150,7 @@
 .slide-img-1 {
   width: 68%;
   height: 80vh;
-  background-image: url("./events-images/abhigyan.jpeg");
+  background-image: url("./events-images/abhigyan.jpg");
   background-position: center;
   background-size: cover;
   padding-left: 2rem;
