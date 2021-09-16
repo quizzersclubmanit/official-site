@@ -56,6 +56,7 @@ const event5 = document.querySelector('.event-5')
 
 
 
+
 const btn0 = document.querySelector(".btn-0");
 btn0.addEventListener('click', () => {
   tlr0.to('.btn-0', 0.2, {
@@ -75,7 +76,7 @@ btn0.addEventListener('click', () => {
       ease: Power2.easeOut,
     })
 
-  tl0.reverse()
+  tl0.reverse(-4)
   tlr0.play()
 })
 
@@ -100,7 +101,7 @@ btn1.addEventListener('click', () => {
       ease: Power2.easeOut,
     })
 
-  tl1.reverse()
+  tl1.reverse(-4)
   tlr1.play()
 })
 
@@ -124,7 +125,7 @@ btn2.addEventListener('click', () => {
       ease: Power2.easeOut,
     })
 
-  tl2.reverse()
+  tl2.reverse(-4)
   tlr2.play()
 })
 
@@ -148,7 +149,7 @@ btn3.addEventListener('click', () => {
       ease: Power2.easeOut,
     })
 
-  tl3.reverse()
+  tl3.reverse(-4)
   tlr3.play()
 })
 
@@ -172,7 +173,7 @@ btn4.addEventListener('click', () => {
       ease: Power2.easeOut,
     })
 
-  tl4.reverse()
+  tl4.reverse(-4)
   tlr4.play()
 })
 
@@ -233,8 +234,9 @@ var tlr4 = gsap.timeline({
   paused: true
 });
 
-
-event1.addEventListener('click', () => {
+const img_1 = document.querySelector('.img-1')
+img_1.addEventListener('click', () => {
+ 
   tl0.to('.slide-effect-0', 0.3, {
       width: '100%'
     })
@@ -268,8 +270,8 @@ event1.addEventListener('click', () => {
   tls0.play()
 })
 
-
-event2.addEventListener('click', () => {
+const img_2 = document.querySelector('.img-2')
+img_2.addEventListener('click', () => {
   tl1.to('.slide-effect-1', 0.3, {
       width: '100%'
     })
@@ -306,8 +308,8 @@ event2.addEventListener('click', () => {
 })
 
 
-
-event3.addEventListener('click', () => {
+const img_3 = document.querySelector('.img-3')
+img_3.addEventListener('click', () => {
   tl2.to('.slide-effect-2', 0.3, {
       width: '100%'
     })
@@ -341,7 +343,8 @@ event3.addEventListener('click', () => {
   }, 300)
 })
 
-event4.addEventListener('click', () => {
+const img_4 = document.querySelector('.img-4')
+img_4.addEventListener('click', () => {
   tl3.to('.slide-effect-3', 0.3, {
       width: '100%'
     })
