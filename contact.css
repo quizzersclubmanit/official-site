@@ -205,7 +205,7 @@
     width: 80%;
   }
 
-  #contact .btn{
+  #contact .btn {
     width: 80%;
   }
 }
@@ -239,12 +239,29 @@
   }
 }
 
-@media (max-width: 500px){
-    .form-control {
+@media (max-width: 500px) {
+  .form-control {
     width: 100%;
   }
 
-  #contact .btn{
+  #contact .btn {
     width: 100%;
   }
-} 
+
+  .slide-img,
+  .slide-img-1 {
+    margin: 0;
+  }
+
+  .slide-content > p {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.slide-content-2 p {
+    font-size: 1.08rem;
+}
+}
