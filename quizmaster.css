@@ -3,6 +3,7 @@
 
 
 * {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
@@ -190,4 +191,7 @@ p {
     display: none;
   }
  
+}
+#quiz-masters > h1{
+  padding:0 10%;
 }
