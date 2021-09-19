@@ -51,7 +51,7 @@
               space-y-4
             ">
           <li><a onclick="closeNav()" href="#landing" data-text="home">home</a></li>
-          <li><a onclick="closeNav()" href="#about" data-text="about">about</a></li>
+          <li><a onclick="closeNav()" href="#aboutUs" data-text="about">about</a></li>
           <li><a onclick="closeNav()" href="#events" data-text="events">events</a></li>
           <li><a onclick="closeNav()" href="#team-head" data-text="team">team</a></li>
           <li><a onclick="closeNav()" href="#contact" data-text="contact">contact</a></li>
@@ -510,39 +510,59 @@
       <h1>A <span>glimpse</span> of our events</h1>
       <div class="contain shadow">
         <input id="item1" type="checkbox" />
-        <label class="item1" for="item1" style="background-image:url(./Gallery/1.jpeg);">
-          <div></div>
+        <label onclick="showHide1()" class="item1" for="item1" style="background-image:url(./Gallery/1.jpeg);">
+          <div id="disc1">
+            picture 1
+          </div>
         </label>
         <input id="item2" type="checkbox" />
-        <label class="item2" for="item2" style="background-image:url(./Gallery/2.jpeg);">
-          <div></div>
+        <label onclick="showHide2()" class="item2" for="item2" style="background-image:url(./Gallery/2.jpeg);">
+          <div id="disc2">
+            picture 2
+          </div>
         </label>
         <input id="item3" type="checkbox" />
-        <label class="item3" for="item3" style="background-image:url(./Gallery/3.jpeg);">
-          <div></div>
+        <label onclick="showHide3()" class="item3" for="item3" style="background-image:url(./Gallery/3.jpeg);">
+          <div id="disc3">
+            picture 3
+          </div>
         </label>
         <input id="item4" type="checkbox" />
-        <label class="item4" for="item4" style="background-image:url(./Gallery/4.jpeg);">
-          <div></div>
+        <label onclick="showHide4()" class="item4" for="item4" style="background-image:url(./Gallery/4.jpeg);">
+          <div id="disc4">
+            picture 4
+          </div>
         </label>
         <input id="item5" type="checkbox" />
-        <label class="item5" for="item5" style="background-image:url(./Gallery/5.jpeg);">
-          <div></div>
+        <label onclick="showHide5()" class="item5" for="item5" style="background-image:url(./Gallery/5.jpeg);">
+          <div id="disc5">
+            picture 5
+          </div>
         </label>
         <input id="item6" type="checkbox" />
-        <label class="item6" for="item6" style="background-image:url(./Gallery/6.jpeg);">
-          <div></div>
+        <label onclick="showHide6()" class="item6" for="item6" style="background-image:url(./Gallery/6.jpeg);">
+          <div id="disc6">
+            picture 6
+          </div>
         </label>
         <input id="item7" type="checkbox" />
-        <label class="item7" for="item7" style="background-image:url(./Gallery/7.jpeg);">
-          <div></div>
+        <label onclick="showHide7()" class="item7" for="item7" style="background-image:url(./Gallery/7.jpeg);">
+          <div id="disc7">
+            picture 7
+          </div>
         </label>
         <input id="item8" type="checkbox" />
-        <label class="item8" for="item8" style="background-image:url(./Gallery/8.jpeg);">
-          <div></div>
+        <label onclick="showHide8()" class="item8" for="item8" style="background-image:url(./Gallery/8.jpeg);">
+          <div id="disc8">
+            picture 8
+          </div>
         </label>
         <input id="item9" type="checkbox" />
-        <label class="item9" for="item9" style="background-image:url(./Untitled\ design\ \(2\).png);"></label>
+        <label onclick="showHide9()" class="item9" for="item9" style="background-image:url(./Untitled\ design\ \(2\).png);">
+          <div id="disc9">
+            picture 9
+          </div>
+        </label>
       </div>
     </div>
   </section>
@@ -664,6 +684,7 @@
   <script src="./quizmaster.js"></script>
   <script src="./events.js"></script>
   <script src="./team.js"></script>
+  <script src="./gallery.js"></script>
 </body>
 
 </html>
