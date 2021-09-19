@@ -173,26 +173,3 @@ footer p, footer li {
     filter: saturate(2) brightness(80%) contrast(200%);
     opacity: 0.05;
 }
-
-
-
- /* Newly added codes */
- @media (max-width:950px) {
-    .footer-logo{
-        top: 0%;
-        left: 40%;
-    }  
-}
-@media (max-width:600px) {
-    .footer-logo{
-        top: 0%;
-        left: 33%;
-    }  
-}
-
-@media (max-width:400px) {
-    .footer-logo{
-        top: 0%;
-        left: 25%;
-    }  
-}
