@@ -7,12 +7,18 @@
         font-size: 2.4rem;
     }
    #landing #logo{
-        width: 100px !important;
-        height: 100px !important;
+        width: 90px !important;
+        height: 90px !important;
     }
 
 }
 @media only screen and (max-width:1000px){
+
+    #landing #logo{
+        width: 85px !important;
+        height: 85px !important;
+    }
+
 
     #landing #image img {
         width: 100%;
@@ -55,8 +61,8 @@
         font-size: 1.5rem;
     }
     #landing #logo{
-        width: 70px !important;
-        height: 70px !important;
+        width: 73px !important;
+        height: 73px !important;
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     }
     #landing{
@@ -71,8 +77,8 @@
     background-color: var(--white);
     top: -5px;
     left: -5px;
-    width: 150px !important;
-    height: 150px !important;
+    width: 113px !important;
+    height: 113px !important;
 }
 
 #landing{

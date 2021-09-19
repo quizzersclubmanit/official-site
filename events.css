@@ -393,6 +393,17 @@
   .slide-content-4 {
     flex-direction: column;
   }
+  #events .slide-content > p {
+    font-size: 1rem;
+  }
+
+  #events  p {
+    font-size: 1.2rem;
+  }
+
+  #events .slide-content-2 p {
+    font-size: 1.08rem;
+  }
 }
 
 @media (max-width: 376px) {
