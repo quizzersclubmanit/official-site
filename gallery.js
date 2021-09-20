@@ -112,6 +112,3 @@ function showHide9() {
         description9.style.opacity = '0';
     } 
 }
-
-
-console.log("not woreked")
