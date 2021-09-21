@@ -59,3 +59,8 @@ document.getElementById("quiz-masters").addEventListener("mouseover", (e)=>{
 document.getElementById("quiz-masters").addEventListener("mouseout", (e)=>{
   slide=true;
 })
+
+// this js code is for hiding the navbar after clicking on link 
+function closeNav() {
+  document.getElementById('burger-toggle').click();
+}

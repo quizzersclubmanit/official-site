@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="./nav.css" />
@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="./events.css" />
   <link rel="stylesheet" href="./team.css">
   <link rel="stylesheet" href="./gallery.css">
+  <link rel="stylesheet" href="blogSection.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="./contact.css">
   <style>
@@ -49,11 +50,11 @@
               uppercase
               space-y-4
             ">
-          <li><a href="#landing" data-text="home">home</a></li>
-          <li><a href="#about" data-text="about">about</a></li>
-          <li><a href="#events" data-text="events">events</a></li>
-          <li><a href="#team-head" data-text="team">team</a></li>
-          <li><a href="#contact" data-text="contact">contact</a></li>
+          <li><a onclick="closeNav()" href="#landing" data-text="home">home</a></li>
+          <li><a onclick="closeNav()" href="#about" data-text="about">about</a></li>
+          <li><a onclick="closeNav()" href="#events" data-text="events">events</a></li>
+          <li><a onclick="closeNav()" href="#team-head" data-text="team">team</a></li>
+          <li><a onclick="closeNav()" href="#contact" data-text="contact">contact</a></li>
         </ul>
         <!-- blog and gallery section  -->
         <div class="gallery">
@@ -136,14 +137,14 @@
     <div id="glassBox">
       <h1>We are Quizzers' Club MANIT</h1>  
       <br>
-      <p>A <span>dwelling</span> for distinguished.</p>
+      <p>Central India's <span>Largest</span> Quizzing society.</p>
     </div>
     <img id="logo" src="./logo.png" alt="logo">
   </section>
 
   <!-- ! ABOUT-US -->
   <section id="aboutUs">  
-    <h1>About <span>us</span></h1>
+    <h1>About <span>Us</span></h1>
 
     <div id="about">
 
@@ -157,7 +158,7 @@
             entire idea, thus, instilling skills and ethics in them that last a lifetime.
           </div>
           <div id="para2">
-            The events organized by the Quizzer's Club MANIT include Manthan, TQQW, Quizzotica, and Vihaan along with
+            The events organized by the Quizzer's Club MANIT include Abhigyan, Manthan, Quizzotica, and Vihaan along with
             various online quizzing contests that bring in the staunch participation of quiz fanatics from different
             colleges of India along with the ones in MANIT. Alongside quizzing events we do post engrossing questions,
             gripping facts, and various other aptitudes which assimilate immersive and informative elements that impel
@@ -183,85 +184,95 @@
 
     <div class="slider-container-0">
       <div class="btn-0 btn">
-        <img src="./events-images/x-mark.png" height="40px" width="40px" alt="">
+        <img src="./events-images/x-mark.png" height="30px" width="30px" alt="">
       </div>
       <div class="slide-img"></div>
       <div class="slide-content">
-        Abhigyan, the rousing quizzing contest organized annually in the month of October by QCM, is one of the
-        most-awaited and thrilling online affairs, featuring two rounds of logical and brain-storming questions. Our
-        competitions have continually boosted self-esteem and enhanced the knowledge of the young entrants participating
-        from over 30+ prestigious colleges. We have encouraged our participants with certificates and the winners with
-        exciting cash prizes and gift vouchers. It is a marvelous opportunity for the young intellects from different
-        places to show their talent, prove their quizzing competency and steal the limelight. You can’t afford to miss
-        it!
+        <p>
+          Abhigyan, the rousing quizzing contest organized annually in the month of October by QCM, is one of the
+          most-awaited and thrilling online affairs, featuring two rounds of logical and brain-storming questions. Our
+          competitions have continually boosted self-esteem and enhanced the knowledge of the young entrants participating
+          from over 30+ prestigious colleges. We have encouraged our participants with certificates and the winners with
+          exciting cash prizes and gift vouchers. It is a marvelous opportunity for the young intellects from different
+          places to show their talent, prove their quizzing competency and steal the limelight. You can’t afford to miss
+          it!
+        </p>
       </div>
     </div>
 
     <!-- !   -->
     <div class="slider-container-1 slider_container">
       <div class="btn-1 btn">
-        <img src="./events-images/x-mark.png" height="40px" width="40px" alt="">
+        <img src="./events-images/x-mark.png" height="30px" width="30px" alt="">
       </div>
       <div class="slide-img slide-img-1"></div>
       <div class="slide-content-1">
-        Manthan is QCM's premier event. The first round of the competition consisted of questionnaires conducted at
-        various universities around the country, bestowing the gripping opportunity of visiting 14+ universities in 2018
-        alone. The second spherical is a quiz competition amongst state quizmasters. Every student represents their
-        respective college, leading to inflated competitions and bragging rights.
+        <p>
+          Manthan is QCM's premier event. The first round of the competition consisted of questionnaires conducted at
+          various universities around the country, bestowing the gripping opportunity of visiting 14+ universities in 2018
+          alone. The second spherical is a quiz competition amongst state quizmasters. Every student represents their
+          respective college, leading to inflated competitions and bragging rights.
+        </p>
       </div>
     </div>
 
     <div class="slider-container-2 slider_container">
       <div class="btn-2 btn">
-        <img src="./events-images/x-mark.png" height="40px" width="40px" alt="">
+        <img src="./events-images/x-mark.png" height="30px" width="30px" alt="">
       </div>
       <div class="slide-img slide-img-2"></div>
       <div class="slide-content-2">
-       QUIZZOTICA is QCM’s one the most destined and prominent events in TECHNOSEARCH to test the tenacity of the
-       participants in quizzing. The quiz is conducted in two stages to check the comprehension skills and inventiveness
-       of the partaker. The first round is a leisure round that involves numerous fun activities like a general
-       knowledge quiz, snake and ladder, and many more. And the second round is also a group competition with various
-       exhilarating sub-rounds to test your theoretical and technical skills. It’s a substantial opportunity for the
-       students to unveil their skills and knowledge.
+        <p>
+          Quizzotica is QCM’s one the most destined and prominent events in Technosearch to test the tenacity of the
+          participants in quizzing. The quiz is conducted in two stages to check the comprehension skills and inventiveness
+          of the partaker. The first round is a leisure round that involves numerous fun activities like a general
+          knowledge quiz, snake and ladder, and many more. And the second round is also a group competition with various
+          exhilarating sub-rounds to test your theoretical and technical skills. It’s a substantial opportunity for the
+          students to unveil their skills and knowledge.
+        </p>
       </div>
     </div>
 
     <div class="slider-container-3 slider_container">
       <div class="btn-3 btn">
-        <img src="./events-images/x-mark.png" height="40px" width="40px" alt="">
+        <img src="./events-images/x-mark.png" height="30px" width="30px" alt="">
       </div>
       <div class="slide-img slide-img-3"></div>
       <div class="slide-content-3">
-       Vihaan-the ultimate science based quiz.
-       An opening event even prior to the noteworthy freshman evening to ignite the vivacious quizzer in all the folks
-       at the dawning juncture of their MANIT journey. Indeed a swirling competition to grab some delightfully
-       exhilarating times with indispensable learning.
+        <p>
+          Vihaan, the Ultimate Science Based Quiz.
+          An opening event even prior to the noteworthy freshman evening to ignite the vivacious quizzer in all the folks
+          at the dawning juncture of their MANIT journey. Indeed a swirling competition to grab some delightfully
+          exhilarating times with indispensable learning.
+        </p>
       </div>
     </div>
 
     <div class="slider-container-4 slider_container">
       <div class="btn-4 btn">
-        <img src="./events-images/x-mark.png" height="40px" width="40px" alt="">
+        <img src="./events-images/x-mark.png" height="30px" width="30px" alt="">
       </div>
       <div class="slide-img slide-img-4"></div>
       <div class="slide-content-4">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-        eveniet dolor dicta a nobis? Deleniti consectetur in ipsa ratione,
-        magnam a reprehenderit rerum! Perferendis voluptate aliquid et vero
-        harum sequi, ratione ipsam at cupiditate vel inventore saepe
-        reiciendis, eum aliquam? Facere, eos cumque! Corporis amet porro
-        voluptatem, veritatis officia maxime. Sint laudantium nam libero ad
-        labore ipsa unde facere repellat dolorum, suscipit at voluptas quasi,
-        assumenda, modi rerum nesciuntdoloremque a. Architecto laudantium
-        minima atque.
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+          eveniet dolor dicta a nobis? Deleniti consectetur in ipsa ratione,
+          magnam a reprehenderit rerum! Perferendis voluptate aliquid et vero
+          harum sequi, ratione ipsam at cupiditate vel inventore saepe
+          reiciendis, eum aliquam? Facere, eos cumque! Corporis amet porro
+          voluptatem, veritatis officia maxime. Sint laudantium nam libero ad
+          labore ipsa unde facere repellat dolorum, suscipit at voluptas quasi,
+          assumenda, modi rerum nesciuntdoloremque a. Architecto laudantium
+          minima atque.
+        </p>
       </div>
     </div>
     <!-- ! EVENT SEC -->
     <div class="row no-gutters">
       <div class="event-1 col-lg-6 p-5" data-aos="fade-up">
-        <div class="img hover-effect">
+        <div class="img hover-effect img-1">
           <div class="slide-effect-0"></div>
-          <div class="content">
+          <div class="content content-right-1">
             <div class="slider-event-name-0"></div>
             <p>Abhigyan</p>
             <div class="divider"></div>
@@ -274,7 +285,7 @@
         </div>
       </div>
       <div class="event-2 col-lg-6 p-5" data-aos="fade-up">
-        <div class="img hover-effect">
+        <div class="img hover-effect img-2">
           <div class="slide-effect-1"></div>
           <div class="content">
             <div class="slider-event-name-1"></div>
@@ -291,9 +302,9 @@
     </div>
     <div class="row">
       <div class="event-3 col-lg-6 p-5" data-aos="fade-up">
-        <div class="img hover-effect">
+        <div class="img hover-effect img-3">
           <div class="slide-effect-2"></div>
-          <div class="content">
+          <div class="content content-right-2">
             <div class="slider-event-name-2"></div>
             <p>Quizzotica</p>
             <div class="divider"></div>
@@ -306,7 +317,7 @@
         </div>
       </div>
       <div class="event-4 col-lg-6 p-5" data-aos="fade-up">
-        <div class="img hover-effect">
+        <div class="img hover-effect img-4">
           <div class="slide-effect-3"></div>
           <div class="content">
             <div class="slider-event-name-3"></div>
@@ -324,12 +335,12 @@
   </section>
 
   <section id="quiz-masters">
+    <h1>Meet our <span>quiz masters</span></h1>
     <div class="rectangle"></div>
 
     <!-- Slideshow container -->
     <div class="slideshow-container">
       <!-- here goes what customers say -->
-      <h1>Meet our <span>quiz masters</span></h1>
       <br />
       <br />
       <br />
@@ -557,6 +568,46 @@
     </div>
   </section>
 
+ <!-- BLOG_SECTION -->
+ <section id="blogSection">
+  <div id="blog-container">
+      <h1>Highlighted Blogs</h1>
+      <div id="blog-innercontainer">
+          <div class="blog-box" id="img1">
+              <a href="" class="blog-link">
+                  <div class="image"><img class="blog-img" src="./blogSection-images/img1.jpg" alt=""></div>
+                  <div class="blog-text" id="text1">
+                      <div>How to be </div>
+                      <div>successful quizzer!</div>
+                  </div>
+              </a>
+          </div>
+
+          <div class="blog-box" id="img2">
+              <a href="" class="blog-link">
+                  <div class="image"><img class="blog-img" src="./blogSection-images/img2.jpeg" alt=""></div>
+                  <div class="blog-text" id="text2">
+                      <div>Falling sensation  when</div>
+                      <div> you are just</div>
+                      <div> about to fall asleep</div>
+                  </div>
+              </a>
+          </div>
+
+          <div class="blog-box" id="img3">
+              <a href="" class="blog-link">
+                  <div class="image"><img class="blog-img" src="./blogSection-images/img3.jpeg" alt=""></div>
+                  <div class="blog-text" id="text3">
+                      <div> Ways to get</div>
+                      <div> better at quizzing</div>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- footer -->
 
   <footer>
     <div class="footer-top">
@@ -564,34 +615,17 @@
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58666.30849649431!2d77.35771080235683!3d23.219630822385916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42c4ffffffff%3A0x352adb5f01541b1b!2sQUIZZERS&#39;%20CLUB%20MANIT!5e0!3m2!1sen!2sin!4v1629988495582!5m2!1sen!2sin"
         style="border:0;" allowfullscreen="" loading="lazy">
       </iframe>
+      <img class="footer-logo" src="./logo.png" alt="">
       <div class="footer-bottom">
         <div class="container">
-          <img class="footer-logo" src="./logo.png" alt="">
           <div class="row">
-            <div class="col-md-3 d-flex justify-content-center">
+            <div class="col-sm-6 d-flex justify-content-center">
               <div class="footer-site-info cprt">2021 © <a href="https://https://quizzersclubmanit.in/">Quizzer's Club
                   MANIT </a></div>
             </div>
 
-            <div class="col-md-6 d-flex justify-content-center mb-10">
-              <nav id="footer-navigation" class="site-navigation footer-navigation centered-box" role="navigation">
-                <ul id="footer-menu" class="nav-menu styled clearfix inline-inside">
-                  <li id="menu-item" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a
-                      href="#">Home</a></li>
-                  <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a
-                      href="#">Contact Us</a></li>
-                  <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a
-                      href="#">Disclaimer</a></li>
-                  <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a
-                      href="#">About Us</a></li>
-                  <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a
-                      href="#">Events</a></li>
 
-                </ul>
-              </nav>
-            </div>
-
-            <div class="col-md-3 d-flex justify-content-center">
+            <div class="col-sm-6 d-flex justify-content-center">
               <div id="footer-socials">
                 <div class="socials inline-inside socials-colored">
 
