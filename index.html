@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">  
-  <head>
-    <meta charset="UTF-8" />
-    <title>Quizzers' Club MANIT</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
-
+<head>
+  <meta charset="UTF-8" />
+  <title>Quizzers' Club MANIT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+  <!-- Mapbox -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="./nav.css" />
   <link rel="stylesheet" href="./landing.css" />
@@ -137,14 +140,14 @@
     <div id="glassBox">
       <h1>We are Quizzers' Club MANIT</h1>  
       <br>
-      <p>Central India's <span>Largest</span> Quizzing society.</p>
+      <p>Central India's <span>Largest</span> Quizzing Club.</p>
     </div>
     <img id="logo" src="./logo.png" alt="logo">
   </section>
 
   <!-- ! ABOUT-US -->
   <section id="aboutUs">  
-    <h1>About <span>Us</span></h1>
+    <h1>About <span>us</span></h1>
 
     <div id="about">
 
@@ -407,7 +410,7 @@
 <!-- ! SPONSORS SEC -->
 
 <section id="sponsors">
-  <h1> Our <span>Sponsors</span></h1>
+  <h1> Our <span>sponsors</span></h1>
   <div class="slider">
     <div class="slide-track">
       <div class="slide"><img src="./sponsors-images/img1.jpeg" alt=""></div>
@@ -631,52 +634,49 @@
 
   <footer>
     <div class="footer-top">
-      <iframe class="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58666.30849649431!2d77.35771080235683!3d23.219630822385916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42c4ffffffff%3A0x352adb5f01541b1b!2sQUIZZERS&#39;%20CLUB%20MANIT!5e0!3m2!1sen!2sin!4v1629988495582!5m2!1sen!2sin"
-        style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
-      <img class="footer-logo" src="./logo.png" alt="">
+      <div id="map"></div>
       <div class="footer-bottom">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-6 d-flex justify-content-center">
-              <div class="footer-site-info cprt">2021 © <a href="https://https://quizzersclubmanit.in/">Quizzer's Club
-                  MANIT </a></div>
-            </div>
-
-
-            <div class="col-sm-6 d-flex justify-content-center">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="mail d-flex align-items-center px-2">
+                <i style="color:#2ec4b6; margin-right:10px" class="fal fa-envelope fa-2x"></i>
+                <p>quizzersclubmanit@gmail.com</p>
+              </div>
+              <br>
               <div id="footer-socials">
                 <div class="socials inline-inside socials-colored">
-
                   <a href="https://www.facebook.com/Quizofficial.manit/" target="_blank" title="Facebook"
-                    class="socials-item">
-                    <i class="fab fa-facebook-f facebook"></i>
-                  </a>
-                  <!-- <a href="#" target="_blank" title="Twitter" class="socials-item">
-                            <i class="fab fa-twitter twitter"></i> -->
-
-                  </a>
-                  <a href="https://www.instagram.com/quizzersclub/?hl=en" target="_blank" title="Instagram"
-                    class="socials-item">
-                    <i class="fab fa-instagram instagram"></i>
-                  </a>
+                  class="socials-item">
+                  <i class="fab fa-facebook-f facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/quizzersclub/?hl=en" target="_blank" title="Instagram"
+                  class="socials-item">
+                  <i class="fab fa-instagram instagram"></i>
+                </a>
                   <a href="https://in.linkedin.com/company/quizzers-club-manit" target="_blank" title="Linkedin"
-                    class="socials-item">
-                    <i class="fab fa-linkedin linkedin"></i>
-                  </a>
-
-                </div>
+                  class="socials-item">
+                  <i class="fab fa-linkedin linkedin"></i>
+                </a>
               </div>
             </div>
-
+            <br>
+            <div class="footer-site-info cprt">
+              <i class="fal fa-registered"></i> 
+              All rights reserved. Quizzers' Club MANIT 2021.
+            </div>
+            </div>
+            <div style="justify-content: flex-end; text-align: right;" class="address col-md-6 d-flex align-items-center">
+              <p>Quizzers' Club MANIT, <br>New Teaching Block, <br>Maulana Azad National <br>Institute of Technology, Bhopal</p>
+              <img style="margin-left:10px;" src="./pin.png" alt="" height="70px">
+            </div>
           </div>
         </div>
       </div>
     </div>
 
   </footer>
-
+  <script src="./map.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./blog.js"></script>
