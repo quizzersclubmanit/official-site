@@ -62,7 +62,7 @@ p {
   transform: translateY(calc(var(--burger-menu-radius) / -5)) rotate(-45deg);
 }
 
-.burger-menu, #navbar img {
+.burger-menu, #navbar {
   --burger-menu-radius: 4em;
   position: fixed;
   top: 0;
@@ -114,29 +114,6 @@ p {
 .burger-menu:hover .line::after {
   transform: translateX(0);
 }
-
-/* blog and gallery  */
-
-/* .menu .gallery {
-  margin-top: 0px;
-  text-align: center;
-}
-.menu .title {
-  font-size: 24px;
-  color: white;
-  overflow: hidden;
-}
-.menu .title p {
-  font-size: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  transform: translateY(102%);
-}
-@media screen and (max-width: 1100px) {
-  .menu .gallery {
-    display: none;
-  }
-} */
 
 
 /* menu items style  */
@@ -266,72 +243,7 @@ a {
     margin: 0;
   }
 }
-
-/* Blog section */
-/* .image-link {
-  color: #1a1e23 !important;
-  text-decoration: none !important;
-}
-.featured-tile {
-  text-align: left;
-  padding: 70% 12% 0;
-}
-.featured-blog-type {
-  background-color: #fff;
-  padding: 15% 8% 1%;
-  outline: 2px solid #fff;
-  outline-offset: 10px;
-  transition: 0.3s;
-}
-.featured-blog-type h6 {
-  font-family: "Karla", sans-serif !important;
-}
-.featured-blog-described {
-  text-align: left;
-  padding: 2% 18% 8%;
-  background-color: #fff;
-  transform: translateY(-10px);
-}
-
-.featured-blog-described h2 {
-  font-family: "EB Garamond", serif !important;
-  font-size: 1.6rem;
-  font-weight: 500;
-}
-.shade {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  color: white;
-  background-color: #011627c7;
-  opacity: 0;
-  transition: 0.4s;
-}
-.shade > div {
-  width: 120px;
-  height: 60px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(145deg, #f71f3a, #d01a31);
-  box-shadow:  20px 20px 60px #e51d35,
-              -20px -20px 60px #e91d37;
-}
-.menu .images .image-link .image {
-  transition: 0.6s;
-  padding: 0 10px;
-}
-
-.menu .images .image-link:hover .shade {
-  opacity: 1;
-} */
+/* blog */
 
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
 @media screen and (max-width: 1100px) {
@@ -382,7 +294,7 @@ a {
     width: 50%;
     height: 300px;
 }
-.nav-image{
+.nav-image {
     height: 100%;
     width: 100%;
     background-color: black;
@@ -400,7 +312,7 @@ a {
   padding-left: 13px;
   padding-right: 25px;
 }
-.nav-blog-box-img{
+.nav-blog-img{
     width: 100%;
     height: 100%;
     transition: all 0.3s linear !important;
