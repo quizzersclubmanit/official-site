@@ -33,8 +33,6 @@
  }
     #blogSection #blog-container h1 {
         font-size: 1.7rem !important;
-        left: 28% !important;
-        top: -21px !important;
         padding-right: 15px !important;
         padding-left: 15px !important;
     }
@@ -44,6 +42,9 @@
     #blogSection {
         margin-left: 28px !important;
         margin-right: 28px !important;
+    }
+    #blogSection #blog-container #blog-heading{
+        top: -19px;
     }
     #blogSection #blog-container #blog-innercontainer .blog-box{
         width: 100%;
@@ -89,8 +90,6 @@
 @media screen and (max-width:430px){
     #blogSection #blog-container h1 {
         font-size: 1.7rem !important;
-        left: 17% !important;
-        top: -20px !important;
     }
     #blogSection #blog-container #blog-innercontainer .blog-box .blog-text{
     font-size: 1.5rem !important;
@@ -99,8 +98,6 @@
 @media screen and (max-width:380x){
     #blogSection #blog-container h1 {
         font-size: 1.5rem !important;
-        left: 15% !important;
-        top: -19px !important;
     }
     #blogSection #blog-container #blog-innercontainer .blog-box {
         width: 100%;
@@ -113,9 +110,7 @@
 }
 @media screen and (max-width:320px){
     #blogSection #blog-container h1 {
-        font-size: 1.3rem !important;
-        left: 16% !important;
-        top: -14px !important;
+        font-size: 1.3rem !important; 
         padding-right: 10px !important;
     padding-left: 10px !important;
 
@@ -156,8 +151,6 @@
     color: #ff9f1c;
     background-color: white;
     position: absolute;
-    left: 35%;
-   top: -22px;
     display: inline-block;
     padding-right: 19px;
     padding-left: 19px;
@@ -211,5 +204,12 @@
     height: 78%;
     font-size: 1.2rem;
     pointer-events: none;
-
 }
+#blog-heading{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: -22px;
+    display: flex;
+    justify-content: center;
+  }

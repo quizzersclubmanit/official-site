@@ -31,6 +31,7 @@
   color: var(--white);
 }
 #events > h1 > span {
+  font-size: 3.5rem;
   color: var(--yellow);
 }
 
