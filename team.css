@@ -16,7 +16,42 @@
     font-size: 3.5rem;
     color: #FF9F1C;
 }
-#toggler{
+
+/* toggler */
+
+#toogler {
+    position: relative;
+    display: inline-block;
+    width: 72px;
+    height: 40px;
+    background-color: #414048;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+#toogler:after {
+    content: '';
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-color: #100f10;
+    transition: all 0.3s linear;
+}
+ .checkbox:checked + #toogler::after {
+    left: 32.5px;
+}
+.checkbox:checked + #toogler {
+    background-color: #1ac0a2;
+}
+#toogler:hover{
+   cursor: pointer;
+}
+.checkbox { 
+    display : none;
+}
+
+
+/* #toggler{
     width: 100px;
     height: 100px;
     background-color: crimson !important;
@@ -29,7 +64,7 @@
 }
 #toggler:focus, .toggler:active{
     box-shadow: none !important;
-}
+} */
 
 #team{
     font-family: "Arvo", serif;
