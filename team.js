@@ -64,7 +64,7 @@ window.addEventListener("load", (e) => {
     p.appendChild(shade);
   });
   makeUp("Prefinal", prefinal);
-  document.getElementById("toggler").addEventListener("click", (e) => {
+  document.getElementById("toogler").addEventListener("click", (e) => {
     document.querySelectorAll(".info").forEach((info) => {
       info.remove();
     });
