@@ -213,8 +213,11 @@
 .slide-content-2 p {
   font-size: 1.1rem;
 }
-.slide-content-3 {
-  font-size: 23px;
+.slide-content-1 p {
+  font-size: 1.1rem;
+}
+.slide-content-3 p {
+  font-size: 1.1rem;
 }
 
 .btn-0,
@@ -395,7 +398,7 @@
     flex-direction: column;
   }
   #events .slide-content > p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   #events  p {
@@ -403,7 +406,7 @@
   }
 
   #events .slide-content-2 p {
-    font-size: 1.08rem;
+    font-size: 1.1rem;
   }
 }
 

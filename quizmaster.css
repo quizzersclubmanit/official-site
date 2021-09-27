@@ -150,7 +150,7 @@ p {
 }
 
 /* add bg color to the active dot/circle */
-.active {
+#quiz-masters .active {
   background-color: var(--yellow);
 }
 
