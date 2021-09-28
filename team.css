@@ -24,7 +24,7 @@
     display: inline-block;
     width: 72px;
     height: 40px;
-    background-color: #414048;
+    background-color: var(--red);
     border-radius: 30px;
     margin-top: 15px;
 }
@@ -34,7 +34,7 @@
     width: 39px;
     height: 39px;
     border-radius: 50%;
-    background-color: #100f10;
+    background-color: var(--dark-blue);
     transition: all 0.3s linear;
 }
  .checkbox:checked + #toogler::after {
