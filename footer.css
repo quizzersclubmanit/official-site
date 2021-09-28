@@ -152,10 +152,6 @@ footer p{
         text-align: center;
     }
     .address{
-        margin-top: 30px;
-        justify-content: center !important;
-    }
-    .address p{
-        text-align: center;
+        display: none !important;
     }
 }

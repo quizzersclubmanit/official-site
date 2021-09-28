@@ -9,16 +9,18 @@
         font-size: 2.4rem;
     }
    #landing #logo{
-        width: 90px !important;
-        height: 90px !important;
+        width: 100px !important;
+        height: 100px !important;
     }
 
 }
 @media only screen and (max-width:1000px){
 
     #landing #logo{
-        width: 85px !important;
-        height: 85px !important;
+        top: 0;
+        left: 0;
+        width: 64px !important;
+        height: 64px !important;
     }
 
 
@@ -79,8 +81,8 @@
     background-color: var(--white);
     top: -5px;
     left: -5px;
-    width: 113px !important;
-    height: 113px !important;
+    width: 130px !important;
+    height: 130px !important;
 }
 
 #landing{
