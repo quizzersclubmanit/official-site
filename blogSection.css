@@ -143,13 +143,14 @@
     margin-right: auto;
     max-width: 870px;
     margin-top: 100px;
+    font-family: "Arvo", sans-serif;
 }
 
 #blogSection #blog-container{
     position: relative;
   border: 3px solid black;
   padding-bottom: 30px;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 100px;
@@ -157,8 +158,9 @@
 
 #blogSection #blog-container h1 {
    font-family: "Arvo", serif;;
-    color: #ff9f1c;
-    background-color: white;
+    color: var(--white);
+    background-color:var(--dark-blue);
+    padding: 5px;
     position: absolute;
     display: inline-block;
     padding-right: 19px;
@@ -173,7 +175,7 @@
 
 .blog-box{
     width: 33.33333%;
-    height: 278px;
+    height: 278px !important;
 }
 .image{
     height: 100%;
@@ -181,7 +183,9 @@
     background-color: black;
     overflow: hidden;
 }
-
+.blog-img{
+    object-fit: cover;
+}
 .blog-box .image .blog-img:hover{
   transform: scale(1.2) !important;
 }
@@ -221,4 +225,4 @@
     top: -22px;
     display: flex;
     justify-content: center;
-  }
+}

@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
+
 
 @media only screen and (max-width:1040px){
 
@@ -142,6 +144,7 @@
 #landing p{
     color: var(--dark-blue);
     letter-spacing: 0.8px;
+    font-family: "Arvo", sans-serif;
 }
 #landing p > span{
     color: var(--yellow);
