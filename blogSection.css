@@ -1,6 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
-@media screen and (max-width:1500px) and (min-width:1100px){
+@media screen and (max-width:1700px) and (min-width:1100px){
     #blogSection{
         max-width: 1080px !important;
         }
