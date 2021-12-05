@@ -15,25 +15,8 @@
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
   <!-- Mapbox -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./nav.css" />
-  <link rel="stylesheet" href="./landing.css" />
-  <link rel="stylesheet" href="./aboutUs.css">
-  <link rel="stylesheet" href="./quizmaster.css" />
-  <link rel="stylesheet" href="sponsors.css">
-  <link rel="stylesheet" href="./events.css" />
-  <link rel="stylesheet" href="./team.css">
-  <link rel="stylesheet" href="./gallery.css">
-  <link rel="stylesheet" href="blogSection.css">
-  <link rel="stylesheet" href="footer.css">
-  <link rel="stylesheet" href="./contact.css">
-  <link rel="stylesheet" href="sponser/owl.carousel.min.css">
-  <link rel="stylesheet" href="sponser/sponsor.css">
-  <style>
-    body {
-      width: 100vw;
-      overflow-x: hidden;
-    }
-  </style>
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="stylesheet" href="./CSS/owl.carousel.min.css">
 </head>
 
 <body>
@@ -72,8 +55,7 @@
                     <a href="" class="nav-blog-link">
                         <div class="nav-image"><img class="nav-blog-img" src="./blogSection-images/img2.jpeg" alt=""></div>
                         <div class="nav-blog-text" id="nav-text1">
-                            <div> Ways to get</div>
-                            <div> better at quizzing</div>
+                            <p>Ways to get better at quizzing</p>
                         </div>
                     </a>
                 </div>
@@ -81,9 +63,7 @@
                       <a href="" class="nav-blog-link">
                           <div class="nav-image"><img class="nav-blog-img" src="./blogSection-images/img3.jpeg" alt=""></div>
                           <div class="nav-blog-text" id="nav-text2">
-                              <div>Falling sensation  when</div>
-                              <div> you are just</div>
-                              <div> about to fall asleep</div>
+                              <p>Falling sensation when you are just about to fall asleep</p>
                           </div>
                       </a>
                   </div>
@@ -103,20 +83,20 @@
     <div id="glassBox">
       <h1>We are Quizzers' Club MANIT</h1>
       <br>
-      <p>Central India's <span>Largest</span> Quizzing Club.</p>
+      <p class="paragraph">Central India's <span>Largest</span> Quizzing Club.</p>
     </div>
     <img id="logo" src="./logo.png" alt="logo">
   </section>
 
   <!-- ! ABOUT-US -->
   <section id="aboutUs">
-    <h1>About <span>us</span></h1>
+    <h1 class="heading">About <span>us</span></h1>
 
     <div id="about">
 
       <div class="box1">
         <div id="para">
-          <div id="para1">QCM is the official quizzing society of Maulana Azad National Institute of Technology, formed
+          <div class="paragraph" id="para1">QCM is the official quizzing society of Maulana Azad National Institute of Technology, formed
             by a bunch of quizzing prodigies of MANIT on February 2013. It aims to buff the grace of quizzing among
             quizzers until gleamed and trivialize the complexities of quizzing, indeed, ingraining the knack for it
             among non-quizzers. The society is driven by students from a variety of domain - the content writers,
@@ -124,7 +104,7 @@
             and upshooting an
             entire idea, thus, instilling skills and ethics in them that last a lifetime.
           </div>
-          <div id="para2">
+          <div class="paragraph" id="para2">
             The events organized by the Quizzer's Club MANIT include Abhigyan, Manthan, Quizzotica, and Vihaan along
             with
             various online quizzing contests that bring in the staunch participation of quiz fanatics from different
@@ -132,24 +112,21 @@
             gripping facts, and various other aptitudes which assimilate immersive and informative elements that impel
             the grounds of the society, which is to dispatch wholesome fun and learning in all its stance.
           </div>
-          <div id="para3">
+          <div class="paragraph" id="para3">
             Quizzing isn’t distraction it rather imbibes fulfillment!
           </div>
-          <button id="btn">More...</button>
+          <button class="shadow" id="btn">More...</button>
         </div>
       </div>
-
       <div class="box2">
-        <img src="./aboutUs-image/video conferencing.jpg" alt="">
+        <img src="./logo.png" alt="">
       </div>
     </div>
   </section>
 
 
   <section id="events">
-    <h1><span>Events</span> that we conduct</h1>
-    <!-- ! SLIDE SEC -->
-
+    <h1 class="heading"><span>Events</span> that we conduct</h1>
     <div class="slider-container-0">
       <div class="btn-0 btn">
         <img src="./events-images/x-mark.png" height="30px" width="30px" alt="">
@@ -307,7 +284,7 @@
   </section>
 
   <section id="quiz-masters">
-    <h1>Meet our <span>quiz masters</span></h1>
+    <h1 class="heading">Meet our <span>quiz masters</span></h1>
     <div class="rectangle"></div>
 
     <!-- Slideshow container -->
@@ -320,22 +297,20 @@
       <!-- Full-width slides/quotes -->
       <div class="mySlides">
         <div class="mySlidesContainer">
-          <img height="100px" width="100px" src="./quizmaster-images/christian-buehner-DItYlc26zVI-unsplash.jpg" />
-          <q>
-            Curabitur ligula augue, lobortis in interdum nec, dignissim vel
-            arcu. Donec semper aliquet mattis. Curabitur convallis urna congue
-            viverra elementum.
+          <img height="100px" width="100px" src="./quizmaster-images/ami.jpg" />
+          <q class="paragraph">
+            Enjoyed judging Quizzers' Club MANIT's event Abhigyan'21.
           </q>
         </div>
         <br />
         <br />
-        <p class="author"><span>Joe Bloggs</span></p>
+        <p class="author"><span>Ami Goradia</span></p>
         <br />
       </div>
-      <div class="mySlides">
+      <!-- <div class="mySlides">
         <div class="mySlidesContainer">
           <img src="./quizmaster-images/erika-garcia-Ri2EiUrJsX4-unsplash.jpg" />
-          <q>
+          <q class="paragraph">
             Vivamus est felis, tempor sed mauris ac, malesuada sollicitudin
             ipsum. Etiam nec ullamcorper nibh, ac pretium sapien. Donec
             pharetra sollicitudin ligula, sit amet ornare nisi vestibulum et.
@@ -350,7 +325,7 @@
       <div class="mySlides">
         <div class="mySlidesContainer">
           <img height="100px" width="100px" src="./quizmaster-images/tessa-wilson-1KuiLuha2aU-unsplash.jpg" />
-          <q>
+          <q class="paragraph">
             Mauris malesuada, ex at volutpat euismod, velit diam placerat
             lacus, eu rhoncus enim metus ultricies nisi. Mauris pharetra
             tristique nisl sndnsjkdn skal.
@@ -360,7 +335,7 @@
         <br />
         <p class="author"><span>John Doe</span></p>
         <br />
-      </div>
+      </div> -->
 
       <!-- Next/prev buttons -->
       <a class="prev">&#10094;</a>
@@ -370,18 +345,18 @@
 
     <!-- Dots/bullets/indicators -->
     <div class="dot-container">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
+      <!-- <span class="dot"></span> -->
+      <!-- <span class="dot"></span> -->
+      <!-- <span class="dot"></span> -->
     </div>
   </section>
 
   <!-- ! SPONSORS SEC -->
   
   <section id="sponsors">
-    <h1> Our <span>sponsors</span></h1>
+    <h1 class="heading"> Our <span>sponsors</span></h1>
     <div class="slider">
-      <div style="border: 4px solid #011627;" class="owl-carousel owl-theme">
+      <div class="owl-carousel owl-theme shadow-lg">
         <div class="sponsor-image">
           <img src="sponser/sponsors-images/img1.jpeg" alt="">
         </div>
@@ -412,7 +387,7 @@
 
   <!-- Team -->
   <section id="team-head">
-    <h1>Meet the <span>pre-final year</span> team</h1>
+    <h1 class="heading">Meet the <span>pre-final year</span> team</h1>
 <div>
   <input type="checkbox" id="switch" class="checkbox">
   <label for="switch" id="toogler"></label>
@@ -499,7 +474,7 @@
 
   <section id="gallery">
     <div class="gallery-inner">
-      <h1>A <span>glimpse</span> of our events</h1>
+      <h1 class="heading">A <span>glimpse</span> of our events</h1>
       <div class="contain shadow">
         <input id="item1" type="checkbox" />
         <label onclick="showHide1()" class="item1" for="item1" style="background-image:url(./Gallery/1.jpeg);">
@@ -562,21 +537,23 @@
 
   <section id="contact">
     <h1 class="heading">Want to <span>collaborate</span> with us?</h1>
+    <br>
+    <br>
     <div class="form-container">
       <div class="form-img ">
         <img class="col-lg-7 col-md-8 col-sm-9 col-12" src="Contact_Form/1.svg" alt="">
       </div>
       <div class="form ">
         <div class="form-control">
-          <input type="text" placeholder="Name">
+          <input class="paragraph" type="text" placeholder="Name">
         </div>
         <div class="form-control">
-          <input type="email" placeholder="Email">
+          <input class="paragraph" type="email" placeholder="Email">
         </div>
         <div class="form-control">
-          <textarea class="message-input" placeholder="Message..."></textarea>
+          <textarea class="message-input paragraph" placeholder="Message..."></textarea>
         </div>
-        <button class="btn shadow-lg">Send Message</button>
+        <button class="btn shadow-lg paragraph">Send Message</button>
       </div>
     </div>
   </section>
@@ -585,14 +562,13 @@
  <!-- BLOG_SECTION -->
  <section id="blogSection">
   <div id="blog-container">
-      <div id="blog-heading"><h1>Highlighted Blogs</h1></div>
+      <div id="blog-heading"><h1 class="heading">Highlighted Blogs</h1></div>
       <div id="blog-innercontainer">
         <div class="blog-box" id="img1">
           <a href="" class="blog-link">
             <div class="image"><img class="blog-img" src="./blogSection-images/img1.jpg" alt=""></div>
             <div class="blog-text" id="text1">
-              <div>How to be </div>
-              <div>successful quizzer!</div>
+              <p class="paragraph">How to be successful quizzer!</p class="paragraph">
             </div>
           </a>
         </div>
@@ -601,9 +577,7 @@
           <a href="" class="blog-link">
             <div class="image"><img class="blog-img" src="./blogSection-images/img2.jpeg" alt=""></div>
             <div class="blog-text" id="text2">
-              <div>Falling sensation when</div>
-              <div> you are just</div>
-              <div> about to fall asleep</div>
+              <p class="paragraph">Falling sensation when you are just about to fall asleep</p>
             </div>
           </a>
         </div>
@@ -612,8 +586,7 @@
           <a href="" class="blog-link">
             <div class="image"><img class="blog-img" src="./blogSection-images/img3.jpeg" alt=""></div>
             <div class="blog-text" id="text3">
-              <div> Ways to get</div>
-              <div> better at quizzing</div>
+              <p class="paragraph">Ways to get better at quizzing</p>
             </div>
           </a>
         </div>
@@ -632,7 +605,7 @@
             <div class="col-md-6">
               <div class="mail d-flex align-items-center px-2">
                 <i style="color:#2ec4b6; margin-right:10px" class="fal fa-envelope fa-2x"></i>
-                <p>quizzersclubmanit@gmail.com</p>
+                <p class="paragraph">quizzersclubmanit@gmail.com</p>
               </div>
               <br>
               <div id="footer-socials">
@@ -653,13 +626,12 @@
               </div>
               <br>
               <div class="footer-site-info cprt">
-                <i class="fal fa-registered"></i>
-                All rights reserved. Quizzers' Club MANIT 2021.
+                <p class="paragraph"><i class="fal fa-registered"></i> All rights reserved. Quizzers' Club MANIT 2021.</p>
               </div>
             </div>
             <div style="justify-content: flex-end; text-align: right;"
               class="address col-md-6 d-flex align-items-center">
-              <p>Quizzers' Club MANIT,<br>Maulana Azad National <br>Institute of Technology,
+              <p class="paragraph">Quizzers' Club MANIT,<br>Maulana Azad National <br>Institute of Technology,
                 <br>Bhopal, PIN:462003</p>
               <img style="margin-left:10px;" src="./pin.png" alt="" height="70px">
             </div>
@@ -669,19 +641,19 @@
     </div>
 
   </footer>
-  <script src="./map.js"></script>
+  <script src="./JS/map.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="./blog.js"></script>
-  <script src="./aboutus.js"></script>
-  <script src="./quizmaster.js"></script>
-  <script src="./events.js"></script>
-  <script src="./team.js"></script>
-  <script src="./gallery.js"></script>
+  <script src="./JS/blog.js"></script>
+  <script src="./JS/aboutus.js"></script>
+  <script src="./JS/quizmaster.js"></script>
+  <script src="./JS/events.js"></script>
+  <script src="./JS/team.js"></script>
+  <script src="./JS/gallery.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="sponser/owl.carousel.min.js"></script>
-  <script src="sponser/sponsor.js"></script>
+  <script src="./JS/owl.carousel.min.js"></script>
+  <script src="./JS/sponsor.js"></script>
 </body>
 
 </html>
