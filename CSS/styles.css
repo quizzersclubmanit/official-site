@@ -966,15 +966,15 @@ a {
     flex-direction: column;
   }
   #events .slide-content > p {
-    font-size: 1.1rem;
+    font-size: 0.94rem;
   }
 
   #events p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #events .slide-content-2 p {
-    font-size: 1.1rem;
+    font-size: 0.96rem;
   }
 }
 
