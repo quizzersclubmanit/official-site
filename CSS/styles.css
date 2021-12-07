@@ -865,7 +865,7 @@ a {
   }
 
   .slide-content > p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .slide-img,
@@ -874,7 +874,36 @@ a {
   }
 
   .slide-content-2 p {
-    font-size: 0.85rem;
+    font-size: 1rem;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .slide-content,
+  .slide-content-1,
+  .slide-content-2,
+  .slide-content-3,
+  .slide-content-4 {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    padding-left: 20px;
+  }
+  .slide-content > p {
+    font-size: 0.9rem;
+  }
+  .slide-img,
+  .slide-img-1 {
+    margin: auto 0 auto 0.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .slide-content-0 > p {
+    line-height: 1.25;
   }
 }
 
@@ -913,9 +942,10 @@ a {
     margin-top: 0;
   }
   .slide-img {
-    width: 90% !important;
-    height: 70vh;
+    width: 80% !important;
+
     height: 320px;
+    height: 458px;
     padding-left: 1rem;
     margin-top: 6.5rem !important;
   }
@@ -944,6 +974,9 @@ a {
   .slide-effectNumber-4 {
     height: 30px;
   }
+  .slide-content-0 > p {
+    line-height: 1.5;
+  }
 }
 
 @media (max-width: 500px) {
@@ -956,6 +989,7 @@ a {
   .slide-img {
     /* height: 320px; */
     height: calc(100vw * 9 / 12);
+    width: 76% !important;
   }
 
   .slide-content,
@@ -966,21 +1000,45 @@ a {
     flex-direction: column;
   }
   #events .slide-content > p {
-    font-size: 0.94rem;
+    font-size: 0.9rem;
   }
 
   #events p {
     font-size: 1rem;
   }
-
+  /* font  */
   #events .slide-content-2 p {
     font-size: 0.96rem;
+  }
+  .slide-content > p {
+    font-size: 0.8rem;
+  }
+
+  .slide-img,
+  .slide-img-1 {
+    margin: auto 0 auto 1rem;
+  }
+
+  .slide-content-2 p {
+    font-size: 0.85rem;
+  }
+  #events .content-right-2{
+    /* width: 5rem !important; */
+    left: -24px !important;
+  }
+   #events .content-right-3{
+    /* width: 5rem !important; */
+    left: -24px !important;
   }
 }
 
 @media (max-width: 376px) {
   .img {
     height: 175px;
+  }
+   /* #events .content-right-2{
+    /* width: 5rem !important; */
+    left: -24px !important; */
   }
 }
 
