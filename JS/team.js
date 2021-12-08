@@ -113,7 +113,7 @@ function makeUp(category, arr) {
   document.querySelectorAll(".parent > img").forEach((img) => {
     img.setAttribute(
       "src",
-      "./" +
+      "./Assets/" +
         category +
         "/" +
         arr[i][0].toLowerCase().split(" ").join("%20") +

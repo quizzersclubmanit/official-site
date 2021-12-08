@@ -612,7 +612,7 @@ a {
   background-repeat: no-repeat;
 }
 .event-1 .img {
-  background-image: url("../events-images/abhigyan.jpg");
+  background-image: url("../Assets/Events/abhigyan.jpg");
 }
 
 .img {
@@ -659,15 +659,15 @@ a {
   font-weight: bolder;
 }
 .event-2 .img {
-  background-image: url("../events-images/manthan.jpg");
+  background-image: url("../Assets/Events/manthan.jpg");
 }
 
 .event-3 .img {
-  background-image: url("../events-images/quizzotica.jpg");
+  background-image: url("../Assets/Events/quizzotica.jpg");
 }
 
 .event-4 .img {
-  background-image: url("../events-images/vihaan.jpg");
+  background-image: url("../Assets/Events/vihaan.jpg");
 }
 .event-2,
 .event-4 {
@@ -728,7 +728,7 @@ a {
 .slide-img-1 {
   width: 68%;
   height: calc(100vw * 9 / 25);
-  background-image: url("../events-images/abhigyan.jpg");
+  background-image: url("../Assets/Events/abhigyan.jpg");
   background-position: center;
   background-size: cover;
   margin-left: 1rem;
@@ -739,15 +739,15 @@ a {
 }
 
 .slide-img-1 {
-  background-image: url("../events-images/manthan.jpg");
+  background-image: url("../Assets/Events/manthan.jpg");
 }
 
 .slide-img-2 {
-  background-image: url("../events-images/quizzotica.jpg");
+  background-image: url("../Assets/Events/quizzotica.jpg");
 }
 
 .slide-img-3 {
-  background-image: url("../events-images/vihaan.jpg");
+  background-image: url("../Assets/Events/vihaan.jpg");
 }
 
 .slide-content,
@@ -902,7 +902,6 @@ a {
   .slide-img-1 {
     margin: auto 0 auto 0.5rem;
   }
-  
 }
 
 @media (max-width: 650px) {
@@ -980,7 +979,7 @@ a {
   .slide-content-0 > p {
     line-height: 1.5;
   }
-    .slide-content-3 > p {
+  .slide-content-3 > p {
     margin-top: 0;
   }
 }
@@ -1118,7 +1117,7 @@ q {
   object-position: right;
   margin-top: 1rem;
 }
-.mySlidesContainer > p{
+.mySlidesContainer > p {
   color: #000;
 }
 
@@ -1343,7 +1342,7 @@ q {
   position: absolute;
   border-radius: 100%;
   overflow: hidden;
-  background: url("../prefinal-bg.jpg");
+  background: url("../Assets/prefinal-bg.jpg");
   background-size: cover;
   background-position: left;
   cursor: pointer;
@@ -2323,7 +2322,7 @@ footer p {
   }
 }
 /* ------------------------------Loader------------------------------ */
-.loading{
+.loading {
   position: fixed;
   top: 0;
   left: 0;
