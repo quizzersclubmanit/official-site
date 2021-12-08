@@ -675,19 +675,34 @@
           />
         </div>
         <div class="form">
-          <div class="form-control">
-            <input class="paragraph" type="text" placeholder="Name" />
-          </div>
-          <div class="form-control">
-            <input class="paragraph" type="email" placeholder="Email" />
-          </div>
-          <div class="form-control">
-            <textarea
-              class="message-input paragraph"
-              placeholder="Message..."
-            ></textarea>
-          </div>
-          <button class="btn shadow-lg paragraph">Send Message</button>
+          <form method="POST" netlify>
+            <div class="form-control">
+              <input
+                required
+                class="paragraph"
+                type="text"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-control">
+              <input
+                required
+                class="paragraph"
+                type="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-control">
+              <textarea
+                required
+                class="message-input paragraph"
+                placeholder="Message..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn shadow-lg paragraph">
+              Send Message
+            </button>
+          </form>
         </div>
       </div>
     </section>
