@@ -1103,8 +1103,9 @@ a {
   }
 
   #events .btn i {
-   
-    font-size: 40px;
+    transform: translateX(18px);
+    /* font-size: 40px; */
+
   }
 }
 
