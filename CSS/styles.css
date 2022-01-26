@@ -659,8 +659,7 @@ a {
 }
 #events .btn i {
   color: var(--white);
-  /* font-size: 15px; */
-  font-weight: 500;
+  font-size: 43px;
 }
 
 .img {
@@ -1097,8 +1096,15 @@ a {
     font-size: 1.1rem;
   }
 
+  #events .btn {
+     padding-right: 0;
+     padding-top: 16px;
+    transform: translateX(15px);
+  }
+
   #events .btn i {
-    padding-right: 0;
+   
+    font-size: 40px;
   }
 }
 
