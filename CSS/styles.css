@@ -506,61 +506,58 @@ a {
   justify-content: center;
 }
 
-
-
 /* -----------------------Upcoming Event--------------------------- */
 @media (max-width: 600px) {
   .up-text {
     font-size: 1.5rem !important;
   }
-  #up-button{
+  #up-button {
     font-size: 0.9rem !important;
   }
 }
-    
-#upcomingEvent>h1{
+
+#upcomingEvent > h1 {
   padding: 0 10%;
   margin-top: 8%;
-  text-align:center;
+  text-align: center;
   color: var(--dark-blue);
 }
-.up-container{
+.up-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:30px 0 40px 0;
+  padding: 30px 0 40px 0;
 }
-#img-box{
+#img-box {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.up-image{
+.up-image {
   height: 100%;
   width: 90%;
 }
-.up-text{
+.up-text {
   text-align: center;
- margin: 25px;
+  margin: 25px;
 }
-#up-button{
+#up-button {
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
-  border: none;  
-  background-color: var(--red); 
+  border: none;
+  background-color: var(--red);
   font-size: 1.2rem;
   transition: linear;
 }
-#up-button{
+#up-button {
   color: var(--white);
   text-decoration: none;
 }
-#up-button:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+#up-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 
 /* -------------------------------About Us------------------------------- */
 @media only screen and (max-width: 1200px) {
@@ -659,6 +656,10 @@ a {
 }
 #events > h1 > span {
   color: var(--yellow);
+}
+#events .btn i {
+  color: var(--white);
+  font-size: 43px;
 }
 
 .img {
@@ -1093,6 +1094,18 @@ a {
   }
   #events p {
     font-size: 1.1rem;
+  }
+
+  #events .btn {
+     padding-right: 0;
+     padding-top: 16px;
+    
+  }
+
+  #events .btn i {
+    transform: translate(17px, 8px);
+    /* font-size: 40px; */
+
   }
 }
 
