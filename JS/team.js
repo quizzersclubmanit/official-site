@@ -1,54 +1,55 @@
 const final = [
-  ["Archit Chibbar","Final Year"],
-  ["Aaditya Jain","Final Year"],
-  ["Hritika Sharma","Final Year"],
-  ["Paras Dandwani","Final Year"],
-  ["Shraddha Bisen","Final Year"],
-  ["Mudit Gokhale","Final Year"],
-  ["Pankaj Gaur","Final Year"],
-  ["Tanishq Singhai","Final Year"],
-  ["Nitesh Sharma","Final Year"],
-  ["Lalit Singh Rajput","Final Year"],
-  ["Siddharth Pankar","Final Year"],
-  ["Princy Jain","Final Year"],
-  ["Satwik Sharma","Final Year"],
-  ["Utkarsh Shrivastava","Final Year"],
-  ["Shanul Nema","Final Year"],
-  ["Mohammad Anas","Final Year"],
-  ["dummy","Final Year"],
-  ["dummy","Final Year"],
-  ["dummy","Final Year"],
-  ["dummy","Final Year"],
-  ["dummy","Final Year"],
-  ["dummy","Final Year"],
-  ["dummy","Final Year"],
-  ["dummy","Final Year"]
+  ["Pratham Khare","Final Year"],
+  ["Abhishek Sinha","Final Year"],
+  ["Manaswi Sathe","Vice President"],
+  ["Aman Malviya","Final Year"],
+  ["Sakshi Talreja","Final Year"],
+  ["Kalyan Roy","Final Year"],
+  ["Imrah Ravish","Final Year"],
+  ["Shagun Mittal","General Secretary"],
+  ["Riya Jain","Final Year"],
+  ["Akriti Yadav","Final Year"],
+  ["Shivi Jain","Final Year"],
+  ["Yash Gupta","Final Year"],
+  ["Rajat Kumar","Final Year"],
+  ["Rajesh Kumar","Final Year"],
+  ["Sambhav Bhatt","Final Year"],
+  ["Arnav Kulkarni","Final Year"],
+  ["Chirag Gupta","Final Year"],
+  ["Aman Gupta","Final Year"],
+  ["Aditya Dhakad","Final Year"],
+  ["Parv Vijayvargiya","Final Year"],
+  ["Deepansh Gupta","Final Year"],
+  ["Divyanshu Jojaware","Final Year"],
+  ["Shagun Mittal","General Secretary"],
+  ["Nishita Goyal","Final Year"],
 ];
 const prefinal = [
-  ["Pratham Khare","Video Head"],
-  ["Abhishek Sinha","Co-cordinator"],
-  ["Manaswi Sathe","Quizzing Head"],
-  ["Aman Malviya","Web Head"],
-  ["Sakshi Talreja","Social Media Head"],
-  ["Kalyan Roy","Quizzing Head"],
-  ["Imrah Ravish","Promotion Head"],
-  ["Satyam Chaturvedi","Co-coordinator"],
-  ["Riya Jain","Photography Head"],
-  ["Akriti Yadav","Designing Head"],
-  ["Shivi Jain","Content Head"],
-  ["Yash Gupta","Web Head"],
-  ["Rajat Kumar","Core team"],
-  ["Rajesh Kumar","Content Head"],
-  ["Sambhav Bhatt","Sponsorship Head"],
-  ["Arnav Kulkarni","Core team"],
-  ["Chirag Gupta","Core team"],
-  ["Aman Gupta","Core team"],
-  ["Aditya Dhakad","Core team"],
-  ["Parv Vijayvargiya","Promotion Head"],
-  ["Deepansh Gupta","Core team"],
-  ["Divyanshu Jojaware","Core team"],
-  ["Shagun Mittal","Sponsorship Head"],
-  ["Nishita Goyal","Core team"]
+  ["Ashmit Prasad","Video Head"],
+  ["Kushal Jain","Video Head"],
+  ["Bhartesh bhaskar","Digital Marketing Head"],
+  ["Mariette Rose Goerge","Quizzing Head"],
+  ["Arya Sharma","Social Media Head"],
+  ["Kiran Tiwari","Web Head"],
+  ["kshitiz Dashottar","Social Media Head"],
+  ["Chirayu sood","Co-cordinator"],
+  ["Sanidhya Khandelwal","Quizzing Head"],
+  ["Ayush Ram Tiwari","Promotion Head"],
+  ["Harithapriya Vijaye","Co-coordinator"],
+  ["Kushal Wanjare","Co-coordinator"],
+  ["Banoth Virat","Photography Head"],
+  ["Aditi Singh","Designing Head"],
+  ["Gargi Deori","Content Head"],
+  ["Ritik Kumar","Web Head"],
+  ["Arushi Kamle","Event Manager head"],
+  ["Yashika Singh","Event Manager head"],
+  ["Yusuf Saifee","Designing Head"],
+  ["Shreya Shah","Content Head"],
+  ["Vidhi Jain","Creative Head"],
+  ["Anshul Garg","Sponsorship Head"],
+  ["Shubham Singh","Promotion Head"],
+  ["Satviki Shukla","Bloggong Site Head"],
+  ["Keshav Gupta","Sponsorship Head"],
 ];
 
 
@@ -90,25 +91,19 @@ window.addEventListener("load", (e) => {
 });
 
 function makeUp(category, arr) {
-  if (category == "Final") {
-    document.getElementById("_17").style.display = "none";
-    document.getElementById("_18").style.display = "none";
-    document.getElementById("_19").style.display = "none";
-    document.getElementById("_20").style.display = "none";
-    document.getElementById("_21").style.display = "none";
-    document.getElementById("_22").style.display = "none";
-    document.getElementById("_23").style.display = "none";
-    document.getElementById("_24").style.display = "none";
-  } else {
-    document.getElementById("_17").style.display = "block";
-    document.getElementById("_18").style.display = "block";
-    document.getElementById("_19").style.display = "block";
-    document.getElementById("_20").style.display = "block";
-    document.getElementById("_21").style.display = "block";
-    document.getElementById("_22").style.display = "block";
-    document.getElementById("_23").style.display = "block";
-    document.getElementById("_24").style.display = "block";
-  }
+  // if (category == "Final") {
+  //   document.getElementById("_17").style.display = "none";
+  //   document.getElementById("_18").style.display = "none";
+  //   document.getElementById("_19").style.display = "none";
+  //   document.getElementById("_20").style.display = "none";
+  //   document.getElementById("_21").style.display = "none";
+  // } else {
+  //   document.getElementById("_17").style.display = "block";
+  //   document.getElementById("_18").style.display = "block";
+  //   document.getElementById("_19").style.display = "block";
+  //   document.getElementById("_20").style.display = "block";
+  //   document.getElementById("_21").style.display = "block";
+  // }
   let i = 0;
   document.querySelectorAll(".parent > img").forEach((img) => {
     img.setAttribute(
