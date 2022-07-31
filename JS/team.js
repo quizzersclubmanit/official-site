@@ -21,7 +21,7 @@ const final = [
   ["Parv Vijayvargiya","Final Year"],
   ["Deepansh Gupta","Final Year"],
   ["Divyanshu Jojaware","Final Year"],
-  ["Shagun Mittal","General Secretary"],
+  ["Satyam Chaturvedi","Final Year"],
   ["Nishita Goyal","Final Year"],
 ];
 const prefinal = [
