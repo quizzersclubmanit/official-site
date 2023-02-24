@@ -45,7 +45,7 @@ const prefinal = [
   ["Yashika Singh","Event Managers Head"],
   ["Yusuf Saifee","Designing Head"],
   ["Shreya Shah","Content Writing Head"],
-  ["Vidhi Jain","Creative Head"],
+  ["Vidhi Jani","Creative Head"],
   ["Anshul Garg","Sponsorship Head"],
   ["Shubham Singh","Public Relations Head"],
   ["Satviki Shukla","Blogging Site Head"],
