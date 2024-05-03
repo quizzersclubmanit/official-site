@@ -140,11 +140,10 @@ body {
 
 #logo {
   position: absolute;
-  background-color: var(--white);
   top: -5px;
   left: -5px;
-  width: 130px !important;
-  height: 130px !important;
+  width: 110px !important;
+  height: 110px !important;
 }
 #landing {
   width: 100vw;
@@ -185,7 +184,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   left: 10%;
-  width: 30%;
+  width: 38%;
   padding: 50px;
   background-color: var(--dark-blue);
   background: rgba(255, 255, 255, 0.2);
