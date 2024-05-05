@@ -1,55 +1,62 @@
 const final = [
-  ["Pratham Khare","Final Year"],
-  ["Abhishek Sinha","Final Year"],
-  ["Manaswi Sathe","Vice President"],
-  ["Aman Malviya","Final Year"],
-  ["Sakshi Talreja","Final Year"],
-  ["Kalyan Roy","Final Year"],
-  ["Imrah Ravish","Final Year"],
-  ["Satyam Chaturvedi","President"],
-  ["Riya Jain","Final Year"],
-  ["Akriti Yadav","Final Year"],
-  ["Shivi Jain","Final Year"],
-  ["Yash Gupta","Final Year"],
-  ["Rajat Kumar","Final Year"],
-  ["Rajesh Kumar","Final Year"],
-  ["Sambhav Bhatt","Final Year"],
-  ["Arnav Kulkarni","Final Year"],
-  ["Chirag Gupta","Final Year"],
-  ["Aman Gupta","Final Year"],
-  ["Aditya Dhakad","Final Year"],
-  ["Parv Vijayvargiya","Final Year"],
-  ["Deepansh Gupta","Final Year"],
-  ["Divyanshu Jojaware","Final Year"],
-  ["Shagun Mittal","General Secretary"],
-  ["Nishita Goyal","Final Year"],
+  ["",""],
+  ["Sanidhya khandelwal","Vice President"],
+  ["Kiran Tiwari","Secretary (Tech & Dig Aff)"],
+  ["Ayush Ram Tiwari","Secretary (External Relation)"],
+  ["Virat Banoth","Secretary (Treasury)"],
+  ["",""],
+  ["",""],
+  ["Kushal Wanjare","President"],
+  ["Kushal Jain","Secretary(Log & Op.)"],
+  ["",""],
+  ["",""],
+  ["",""],
+  ["Mariette Rose George","Secretary (Media Rel.& com)"],
+  ["",""],
+  ["Shanul Nema","Final Year"],
+  ["",""],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
+  ["dummy","Final Year"],
 ];
 const prefinal = [
-  ["Ashmit Prasad","Video Head"],
-  ["Kushal Jain","Video Head"],
-  ["Bhartesh bhaskar","Digital Marketing Head"],
-  ["Mariette Rose George","Quizzing Head"],
-  ["Arya Sharma","Social Media Head"],
-  ["Kiran Tiwari","Web Head"],
-  ["kshitiz Dashottar","Social Media Head"],
-  ["Chirayu sood","Co-coordinator"],
-  ["Sanidhya Khandelwal","Quizzing Head"],
-  ["Ayush Ram Tiwari","Public Relations Head"],
-  ["Harithapriya Vijaye","Co-coordinator"],
-  ["Kushal Wanjare","Co-coordinator"],
-  ["Banoth Virat","Photography Head"],
-  ["Aditi Singh","Designing Head"],
-  ["Gargi Deori","Content Writing Head"],
-  ["Ritik Kumar","Web Head"],
-  ["Arushi Kamle","Event Managers Head"],
-  ["Yashika Singh","Event Managers Head"],
-  ["Yusuf Saifee","Designing Head"],
-  ["Shreya Shah","Content Writing Head"],
-  ["Vidhi Jani","Creative Head"],
-  ["Anshul Garg","Sponsorship Head"],
-  ["Shubham Singh","Public Relations Head"],
-  ["Satviki Shukla","Blogging Site Head"],
-  ["Keshav Gupta","Sponsorship Head"],
+  ["Dheeraj Mandvi","Video Editing Head"],
+  ["Adarsh Dinkar","Co-coordinator"],
+  ["Akash Goyal","Web Head"],
+  ["Abhay Bhadoriya","Web Head"],
+  ["Sameer Bajpai","Social Media Head"],
+  ["Harshita Nehra","Quizzing Head"],
+  ["Suhani Jain","Public Relations Head"],
+  ["Nishchal Prajapati","Co-coordinator"],
+  ["Kyama Sreevathsav","Photography Head"],
+  ["Akshat Jain","Designing Head"],
+  ["Emilin Feba","Content Head"],
+  ["Anurag Mishra","Quizzing Head"],
+  ["Swapnil Tripathi","Designing Head"],
+  ["Vishnu Vardhan","Content Head"],
+  ["Thrishul Reddy","Sponsorship Head"],
+  ["Sreeram Reddy","Sponsorship Head"],
+  ["Rohaan khan","Event Managment Head"],
+  ["Ette Divya","Event Managment Head"],
+  ["Abhishek Meena","Head of Execution"],
+  ["Aryan Tripathi","Public Relations Head"],
+  ["Om Krishna","Creative Head"],
+  ["Tulsi Kumari","Creative Head"],
+  ["Kushagra Rajput","Video Editing Head"],
+  ["Amanda Sequeira","Blogging Site Head"],
+  ["Vaddamani Chethan","Blogging Site Head"],
+  ["Tanvi Koli","Social Media Head"],
+  ["Ayushi Gupta","Digital Marketing Head"],
+  ["Priyanshu singh","Digital Marketing Head"],
 ];
 
 
@@ -91,19 +98,52 @@ window.addEventListener("load", (e) => {
 });
 
 function makeUp(category, arr) {
-  // if (category == "Final") {
-  //   document.getElementById("_17").style.display = "none";
-  //   document.getElementById("_18").style.display = "none";
-  //   document.getElementById("_19").style.display = "none";
-  //   document.getElementById("_20").style.display = "none";
-  //   document.getElementById("_21").style.display = "none";
-  // } else {
-  //   document.getElementById("_17").style.display = "block";
-  //   document.getElementById("_18").style.display = "block";
-  //   document.getElementById("_19").style.display = "block";
-  //   document.getElementById("_20").style.display = "block";
-  //   document.getElementById("_21").style.display = "block";
-  // }
+  if (category == "Final") {
+    // document.getElementById("_1").style.display = "none";
+    // document.getElementById("_5").style.display = "none";
+    // document.getElementById("_6").style.display = "none";
+    // document.getElementById("_7").style.display = "none";
+    // document.getElementById("_10").style.display = "none";
+    // document.getElementById("_11").style.display = "none";
+    // document.getElementById("_12").style.display = "none";
+    document.getElementById("_15").style.display = "none";
+    document.getElementById("_16").style.display = "none";
+    document.getElementById("_17").style.display = "none";
+    document.getElementById("_18").style.display = "none";
+    document.getElementById("_19").style.display = "none";
+    document.getElementById("_20").style.display = "none";
+    document.getElementById("_21").style.display = "none";
+    document.getElementById("_22").style.display = "none";
+    document.getElementById("_23").style.display = "none";
+    document.getElementById("_24").style.display = "none";
+    document.getElementById("_25").style.display = "none";
+    document.getElementById("_26").style.display = "none";
+    document.getElementById("_27").style.display = "none";
+    document.getElementById("_28").style.display = "none";
+  } else {
+   
+    //  document.getElementById("_1").style.display = "block";
+    // document.getElementById("_5").style.display = "block";
+    // document.getElementById("_6").style.display = "block";
+    // document.getElementById("_7").style.display = "block";
+    // document.getElementById("_10").style.display = "block";
+    // document.getElementById("_11").style.display = "block";
+    // document.getElementById("_12").style.display = "block";
+    document.getElementById("_15").style.display = "block";
+    document.getElementById("_16").style.display = "block";
+    document.getElementById("_17").style.display = "block";
+    document.getElementById("_18").style.display = "block";
+    document.getElementById("_19").style.display = "block";
+    document.getElementById("_20").style.display = "block";
+    document.getElementById("_21").style.display = "block";
+    document.getElementById("_22").style.display = "block";
+    document.getElementById("_23").style.display = "block";
+    document.getElementById("_24").style.display = "block";
+    document.getElementById("_25").style.display = "block";
+    document.getElementById("_26").style.display = "block";
+    document.getElementById("_27").style.display = "block";
+    document.getElementById("_28").style.display = "block";
+  }
   let i = 0;
   document.querySelectorAll(".parent > img").forEach((img) => {
     img.setAttribute(
