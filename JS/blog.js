@@ -1,9 +1,9 @@
 let blogs=[];
-fetch('https://qcmblogapi.herokuapp.com/', {
+fetch('https://quizzersclub.in/', {
   method: 'GET', 
   mode: 'cors', 
   headers:{
-    Origin:"https://qcmblogapi.herokuapp.com/"
+    Origin:"https://quizzersclub.in/"
   }
 }).then(response =>response.json())
   .then(data=>{
